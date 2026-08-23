@@ -93,7 +93,7 @@ And because you're already moving toward **DevOps**, learning how testing fits i
   - also known as module testing/component testing
   - test specific part of software (Single component)
   - Unit Testing Techniques:
-    - basis path testing : 
+    - basis path testing: 
     - Controlled structure testing
       - conditional coverage
       - loops coverage (mutation)
@@ -102,8 +102,14 @@ And because you're already moving toward **DevOps**, learning how testing fits i
 module testing: related to Code/module
 component testing: related to application (on UI)
 ```
+
 - Integration testing
-  - 
+  - conducted on the two or more modules or components (verify the Communication between the two modules)
+  - Integration testing techniques:
+    - incremental integration
+      - top-down
+      - bottom-up
+    - non-incremental integration
 - System testing
 - user acceptance testing
 
