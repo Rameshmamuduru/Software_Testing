@@ -120,7 +120,11 @@ component testing: related to application (on UI)
     - functionality testing
     - non-functional testing
     - usability testing
-- user acceptance testing
+- **user acceptance testing**
+  - Done by UAT team
+    - in two levels
+      - Alpha testing: in the org real data 
+      - Beta testing: in the customer environment with customer data
 
 
 
