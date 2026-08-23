@@ -1,0 +1,160 @@
+Day-3
+--------
+QA Vs QC  Vs QE
+
+▪ QA is Process related.
+▪ QC is the actual testing of the software.
+▪ QA focuses on building in quality.
+▪ QC focuses on testing for quality.
+▪ QA is preventing defects.
+▪ QC is detecting defects.
+▪ QA is process oriented.
+▪ QC is Product oriented.
+▪ QA for entire life cycle.
+▪ QC for testing part in SDLC
+
+SDET
+
+
+Testing Methods
+-----------
+1) White box testing
+2) Black box testing
+3) Grey box testing
+
+
+White box testing
+-----------
+White Box Testing conducts on internal logic of the programs. 
+Programming Skills are required.
+Ex: Unit Testing & Integration Testing
+
+Black box testing
+-----------------
+Testing conducts on functionality of the application whether it is working according to customer requirements or not.
+
+Ex: System testing, UAT
+
+
+Grey box testing
+-------
+Combination of white box & black box
+
+Ex: Database testing
+
+
+Levels of testing
+---------
+1) Unit testing
+2) Integration testing
+3) System testing
+4) User Acceptance Testing( UAT)
+
+Unit testing/module testing/ component testing
+--------------
+A unit is a single component or module of a software.
+Unit testing conducts on a single program or single module. 
+Unit Testing is white box testing technique.
+Unit testing is conducted by the developers.
+
+Unit testing techniques:
+– Basis path testing
+– Control structure testing
+▪ Conditionalcoverage
+▪ Loops Coverage – Mutation Testing
+
+
+Integration testing
+------------------
+
+Integration testing performed between 2 or more modules.
+Integration testing focuses on checking data communication between multiple modules.
+Integrated Testing is white box testing technique.
+
+▪ Incremental Integration Testing 
+		top down
+		bottom up
+▪ Non- Incremental Integration Testing
+
+
+
+System testing
+--------------
+Testing over all functionality of the application with respective client requirements.
+It is a black box testing technique.
+This testing is conducted by testing team.
+After completion of component and integration level testing’s we start System testing.
+Before conducting system testing we should know the customer requirements.
+System Testing focusses on below aspects.
+• User Interface Testing (GUI)
+• Functional Testing
+• Non-Functional Testing
+• Usability Testing
+
+UAT 
+------
+After completion of system testing UAT team conducts acceptance testing in two levels.
+
+• Alpha testing
+• Beta testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,37 @@
+Day-2
+-----
+SDLC  - Software Developement Life Cycle
+
+SDLC Models
+
+Waterfall
+Spiral
+Incremental
+Ptototype
+etc...
+
+
+V Model
+Agile
+
+
+
+P - People
+P - Process
+P - Product
+
+
+V Model
+--------
+
+Verification Vs Validation
+		Verification:  Reviews, walkthoughs, inspections
+		Validation  :  unit testing, integration testing, sysem testing, UAT
+
+Static Vs Dynamc Testing
+
+
+
+
+
+
