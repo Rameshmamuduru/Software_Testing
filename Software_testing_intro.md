@@ -87,3 +87,36 @@ And because you're already moving toward **DevOps**, learning how testing fits i
 | **Automation**        | May use automation                     | Uses testing tools                         | **Strong focus on automation and engineering solutions**                                                     |
 | **CI/CD involvement** | Usually defines quality processes      | Executes tests in pipeline                 | **Integrates automated quality checks directly into CI/CD**                                                  |
 | **Production focus**  | Process compliance                     | Product defects                            | **Reliability, performance, observability and continuous improvement**                                       |
+
+## levels of testing:
+- Unit testing
+  - also known as module testing/component testing
+  - test specific part of software (Single component)
+  - Unit Testing Techniques:
+    - basis path testing : 
+    - 
+- Integration testing
+  - 
+- System testing
+- user acceptance testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
