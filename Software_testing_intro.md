@@ -206,8 +206,34 @@ SOFTWARE TESTING
 
 ```
 
+### GUI/UI Testing:
 
-
+```
+GUI / UI TESTING
+│
+├── Functional UI
+│   ├── Buttons
+│   ├── Textboxes
+│   ├── Checkboxes
+│   ├── Radio buttons
+│   ├── Dropdowns
+│   ├── Links
+│   └── Error messages
+│
+├── Visual UI
+│   ├── Size
+│   ├── Position
+│   ├── Alignment
+│   ├── Font
+│   ├── Colors
+│   └── Images
+│
+└── Usability / Responsive UI
+    ├── Readability
+    ├── Navigation
+    ├── Scrollbars
+    └── Different screen resolutions
+```
 
 
 
