@@ -70,3 +70,20 @@ Don't try to learn every testing type equally. Focus strongly on:
 
 And because you're already moving toward **DevOps**, learning how testing fits into **CI/CD pipelines and DevSecOps** will be especially valuable.
 ```
+
+## QA vs QC vs QE:
+
+| Aspect                | **QA — Quality Assurance**             | **QC — Quality Control**                   | **QE — Quality Engineering**                                                                                 |
+| --------------------- | -------------------------------------- | ------------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
+| **Main focus**        | **Process**                            | **Product**                                | **Quality across the engineering lifecycle**                                                                 |
+| **Goal**              | Prevent defects                        | Detect defects                             | **Prevent, detect, and continuously improve quality**                                                        |
+| **Approach**          | **Proactive**                          | **Reactive**                               | **Proactive + Preventive + Continuous**                                                                      |
+| **What it asks**      | "Are we following the right process?"  | "Does the product meet requirements?"      | **"How can we engineer quality into the product from the beginning?"**                                       |
+| **Activities**        | Defining standards, processes, reviews | Testing, inspection, defect identification | **Automation, shift-left testing, CI/CD quality gates, performance, security, observability, test strategy** |
+| **When**              | Throughout development                 | Mainly during/after product development    | **Throughout the entire SDLC**                                                                               |
+| **Example**           | Define coding/testing standards        | Execute test cases and report bugs         | **Automate tests and integrate them into CI/CD so defects are caught early**                                 |
+| **Responsibility**    | Process quality                        | Product quality                            | **Engineering quality across development, testing, deployment and production**                               |
+| **Typical roles**     | QA Engineer, QA Manager                | QC Inspector, Tester                       | **Quality Engineer, SDET, Senior QA Engineer**                                                               |
+| **Automation**        | May use automation                     | Uses testing tools                         | **Strong focus on automation and engineering solutions**                                                     |
+| **CI/CD involvement** | Usually defines quality processes      | Executes tests in pipeline                 | **Integrates automated quality checks directly into CI/CD**                                                  |
+| **Production focus**  | Process compliance                     | Product defects                            | **Reliability, performance, observability and continuous improvement**                                       |
