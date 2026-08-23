@@ -1,5 +1,13 @@
 ## Types Of Testing
 
+### 4. Testing Based on Code Knowledge
+
+| Type                  | Tester knowledge of code                     |
+| --------------------- | -------------------------------------------- |
+| **Black Box Testing** | No internal code knowledge required          |
+| **White Box Testing** | Full knowledge of internal logic code         
+| **Grey Box Testing**  | Partial knowledge of internal implementation |
+
 ### 1. Functional Testing
 
 Checks whether the application works according to requirements.
@@ -44,14 +52,6 @@ Checks **how well** the application works.
 * Cypress
 * Appium
 * REST Assured, etc.
-
-### 4. Testing Based on Code Knowledge
-
-| Type                  | Tester knowledge of code                     |
-| --------------------- | -------------------------------------------- |
-| **Black Box Testing** | No internal code knowledge required          |
-| **White Box Testing** | Full knowledge of internal code              |
-| **Grey Box Testing**  | Partial knowledge of internal implementation |
 
 ### 5. Testing at Different Levels
 
