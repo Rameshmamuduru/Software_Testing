@@ -94,7 +94,14 @@ And because you're already moving toward **DevOps**, learning how testing fits i
   - test specific part of software (Single component)
   - Unit Testing Techniques:
     - basis path testing : 
-    - 
+    - Controlled structure testing
+      - conditional coverage
+      - loops coverage (mutation)
+
+```
+module testing: related to Code/module
+component testing: related to application (on UI)
+```
 - Integration testing
   - 
 - System testing
