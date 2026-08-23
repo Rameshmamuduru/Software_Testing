@@ -110,7 +110,14 @@ component testing: related to application (on UI)
       - top-down
       - bottom-up
     - non-incremental integration
-- System testing
+- System testing:
+  - testing functionality as per the client requirements.
+  - before system testing, we should know the customer requirements
+  - this testing focuses on below aspects:
+    - User interphase testing (GUI)
+    - functionality testing
+    - non-functional testing
+    - usability testing
 - user acceptance testing
 
 
