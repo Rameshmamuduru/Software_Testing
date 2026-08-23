@@ -233,6 +233,21 @@ GUI / UI TESTING
     ├── Navigation
     ├── Scrollbars
     └── Different screen resolutions
+
+                         SOFTWARE TESTING
+                                │
+                         HOW TEST IS EXECUTED
+                                │
+                    ┌───────────┴───────────┐
+                    │                       │
+              MANUAL TESTING          AUTOMATION TESTING
+                    │                       │
+          ┌─────────┼─────────┐     ┌───────┼────────┐
+          │         │         │     │       │        │
+         GUI       API       DB    GUI     API      DB
+          │         │         │     │       │        │
+       Browser   Postman    SQL  Selenium  RestAssured SQL
+
 ```
 
 
