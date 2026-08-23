@@ -90,7 +90,7 @@ And because you're already moving toward **DevOps**, learning how testing fits i
 
 =======================================================================================
 ## levels of testing:
-- Unit testing
+- **Unit testing**
   - also known as module testing/component testing
   - test specific part of software (Single component)
   - Unit Testing Techniques:
@@ -104,14 +104,15 @@ module testing: related to Code/module
 component testing: related to application (on UI)
 ```
 
-- Integration testing
+- **Integration testing**
   - conducted on the two or more modules or components (verify the Communication between the two modules)
   - Integration testing techniques:
     - incremental integration
       - top-down
       - bottom-up
     - non-incremental integration
-- System testing:
+      
+- **System testing:**
   - testing functionality as per the client requirements.
   - before system testing, we should know the customer requirements
   - this testing focuses on below aspects:
