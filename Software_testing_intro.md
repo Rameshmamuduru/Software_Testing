@@ -8,35 +8,68 @@
 | **White Box Testing** | Full knowledge of internal logic code         
 | **Grey Box Testing**  | Partial knowledge of internal implementation (DB testing) |  
 
-### 1. Functional Testing
+```
+SOFTWARE TESTING
+│
+├── 1. TESTING LEVELS
+│   │
+│   ├── Unit Testing
+│   │   └── Tests individual functions/classes
+│   │
+│   ├── Integration Testing
+│   │   └── Tests interaction between modules/services
+│   │
+│   ├── System Testing
+│   │   └── Tests the complete application
+│   │
+│   └── Acceptance Testing / UAT
+│       └── Validates that the system meets business requirements
+│
+├── 2. TESTING NATURE
+│   │
+│   ├── Functional Testing
+│   │   └── Checks WHAT the application does
+│   │       │
+│   │       ├── Object Properties Testing
+│   │       ├── Database Testing
+│   │       ├── Error Handling Testing
+│   │       ├── Calculations / Manipulations Testing
+│   │       ├── Links Testing
+│   │       └── Cookies & Sessions Testing
+│   │
+│   └── Non-Functional Testing
+│       └── Checks HOW WELL the application works
+│           │
+│           ├── Performance Testing
+│           ├── Security Testing
+│           ├── Usability Testing
+│           ├── Compatibility Testing
+│           ├── Reliability Testing
+│           └── Scalability Testing
+│
+├── 3. TESTING PURPOSE
+│   │
+│   ├── Smoke Testing
+│   │   └── Checks whether the build is stable
+│   │
+│   ├── Sanity Testing
+│   │   └── Checks a specific change/fix
+│   │
+│   └── Regression Testing
+│       └── Checks whether existing functionality is broken
+│
+└── 4. TESTING APPROACH
+    │
+    ├── Black Box Testing
+    │   └── No knowledge of internal code required
+    │
+    ├── White Box Testing
+    │   └── Knowledge of internal code required
+    │
+    └── Grey Box Testing
+        └── Partial knowledge of internal code
+```
 
-Checks whether the application works according to requirements.
-
-* **Unit Testing** – Tests individual functions/classes.
-* **Integration Testing** – Tests interaction between modules/services.
-* **System Testing** – Tests the complete application.
-* **End-to-End (E2E) Testing** – Tests the complete business flow.
-* **Smoke Testing** – Quick check that the build is stable enough for further testing.
-* **Sanity Testing** – Focused testing after a small change/fix.
-* **Regression Testing** – Ensures existing functionality still works after changes.
-* **UAT (User Acceptance Testing)** – Validates that the system meets business requirements.
-
-### 2. Non-Functional Testing
-
-Checks **how well** the application works.
-
-* **Performance Testing**
-
-  * Load Testing
-  * Stress Testing
-  * Spike Testing
-  * Endurance/Soak Testing
-* **Security Testing**
-* **Usability Testing**
-* **Compatibility Testing**
-* **Accessibility Testing**
-* **Reliability Testing**
-* **Scalability Testing**
 
 ### 3. Testing Based on Execution
 
