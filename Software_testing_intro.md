@@ -160,7 +160,40 @@ SOFTWARE TESTING
         └── Partial knowledge of internal code
 ```
 
+```
+                         SOFTWARE TESTING
+                                │
+                         TESTING LEVELS
+                                │
+          ┌─────────────────────┼─────────────────────┐
+          │                     │                     │
+        UNIT              INTEGRATION              SYSTEM
+        TESTING             TESTING                TESTING
+                                                        │
+                                                        │
+                                      Complete System / Application
+                                                        │
+                              ┌─────────────────────────┴───────────────────┐
+                              │                                             │
+                         FUNCTIONAL                                  NON-FUNCTIONAL
+                           TESTING                                      TESTING
+                              │                                             │
+                    "WHAT does it do?"                              "HOW WELL does it work?"
+                              │                                             │
+                 ┌────────────┼────────────┐                 ┌──────────────┼──────────────┐
+                 │            │            │                 │              │              │
+                GUI          API      Business            Performance    Security       Usability
+                                      Workflows
+                 │
+                 ├── Functional behavior
+                 ├── Input validation
+                 ├── Business rules
+                 ├── Calculations
+                 ├── Error handling
+                 ├── Data validation
+                 └── End-to-End scenarios
 
+```
 
 
 
