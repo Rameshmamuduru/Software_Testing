@@ -6,7 +6,7 @@
 | --------------------- | -------------------------------------------- |
 | **Black Box Testing** | No internal code knowledge required          |
 | **White Box Testing** | Full knowledge of internal logic code         
-| **Grey Box Testing**  | Partial knowledge of internal implementation |  DB testing
+| **Grey Box Testing**  | Partial knowledge of internal implementation (DB testing) |  
 
 ### 1. Functional Testing
 
