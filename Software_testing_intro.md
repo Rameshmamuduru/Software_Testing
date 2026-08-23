@@ -161,37 +161,48 @@ SOFTWARE TESTING
 ```
 
 ```
-                         SOFTWARE TESTING
+                                                  SOFTWARE TESTING
                                 │
                          TESTING LEVELS
                                 │
-          ┌─────────────────────┼─────────────────────┐
-          │                     │                     │
-        UNIT              INTEGRATION              SYSTEM
-        TESTING             TESTING                TESTING
-                                                        │
-                                                        │
-                                      Complete System / Application
-                                                        │
-                              ┌─────────────────────────┴───────────────────┐
-                              │                                             │
-                         FUNCTIONAL                                  NON-FUNCTIONAL
-                           TESTING                                      TESTING
-                              │                                             │
-                    "WHAT does it do?"                              "HOW WELL does it work?"
-                              │                                             │
-                 ┌────────────┼────────────┐                 ┌──────────────┼──────────────┐
-                 │            │            │                 │              │              │
-                GUI          API      Business            Performance    Security       Usability
-                                      Workflows
-                 │
-                 ├── Functional behavior
-                 ├── Input validation
-                 ├── Business rules
-                 ├── Calculations
-                 ├── Error handling
-                 ├── Data validation
-                 └── End-to-End scenarios
+          ┌─────────────────────┼─────────────────────────┐
+          │                     │                         │
+        UNIT              INTEGRATION                   SYSTEM
+       TESTING               TESTING                    TESTING
+                                                           │
+                                                           │
+                                             Complete Integrated System
+                                                           │
+                                  ┌────────────────────────┴───────────────────────┐
+                                  │                                                │
+                           FUNCTIONAL                                      NON-FUNCTIONAL
+                             TESTING                                           TESTING
+                                  │                                                │
+                          "WHAT does it do?"                              "HOW WELL does it work?"
+                                  │                                                │
+                  ┌───────────────┼────────────────┐              ┌────────────────┼───────────────┐
+                  │               │                │              │                │               │
+                 GUI             API          Business       Performance        Security        Usability
+              Functional      Functional       Workflows          │                │               │
+                  │               │                │               ├── Load         ├── Auth        ├── Ease of use
+                  │               │                │               ├── Stress       ├── Access      ├── Navigation
+                  │               │                │               ├── Spike        └── Vulnerability
+                  │               │                │               └── Endurance
+                  │               │                │
+                  ├── UI behavior ├── Requests     ├── E2E
+                  ├── Validation  ├── Responses    ├── Business rules
+                  ├── Buttons     ├── Status codes ├── Workflows
+                  ├── Forms       └── Data         └── Data flow
+                  ├── Links
+                  ├── Dropdowns
+                  └── Error messages
+                                  │
+                                  └── Other Functional Checks
+                                      ├── Calculations
+                                      ├── Data validation
+                                      ├── Error handling
+                                      ├── Database validation
+                                      └── Cookies & Sessions
 
 ```
 
