@@ -514,6 +514,46 @@ Is the login secure?
 - Sanitation/garbage testing: extra feature also considers as bugs and should be removed.
 
 
+## Software testing Terminology: (In impact analysis meeting)
+
+- **Regression Testing**: Regression Testing means re-testing existing functionality after a change to make sure the change has not broken anything that was already working. (can be bug/new changes)
+- Types:
+  - **unit regression**: testing on specific change by the developer
+  - **Regional regression**: when the bug fixed the by the dev team along with the **unit regression** test, testing can be done on the connected functionality to that fix.
+  - **Full Regression**: post new changes by the dev not possible to find the effected functionality so testing can be done in full round.
+
+- **Re-testing**: Only on bug fix
+
+- **Smoke Testing**: focus on **stability** on the build before any of the testing. (Build verification testing)
+- **Sanity testing**: what are the **basic functionality** is required to test other functionalities **then all testing can be done**
+
+                                **Above two are basic entry test cases**
+
+
+<img width="528" height="206" alt="image" src="https://github.com/user-attachments/assets/c028a3db-e1c6-4a48-8711-236c0e6396ff" />   <img width="447" height="240" alt="image" src="https://github.com/user-attachments/assets/e17fba2c-ca74-4012-9d2c-ed5d1748363b" />
+
+
+- **Exploratory testing**: Understand the application (Explore application), identify all the possible scenarios, document them and use it for testing. (not aware of the application)
+  - **when**: no requirement document
+  - **drawbacks**: misunderstand between the **bug and feature**, time consuming.
+
+- **Adhoc testing**: testing randomly with test cases/documents. (aware of application with any documents, not plan no test cases)
+  - it was a informal testing type to break the system and this was an unplanned testing. 
+
+- **Monkey testing**: suitable for gaming application
+
+<img width="1000" height="449" alt="image" src="https://github.com/user-attachments/assets/d4523878-f5a4-4ff8-bc85-caf50b0aad64" />
+
+
+
+
+
+
+
+
+
+
+
 
 
 
