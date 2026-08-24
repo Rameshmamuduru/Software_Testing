@@ -139,10 +139,11 @@ The Software Development Life Cycle (SDLC) is a structured methodology used by d
 ### Waterfall Model
 
 **The Waterfall Model is a sequential SDLC model where software development is divided into different phases, and each phase is completed before moving to the next phase.**
-
+```
 ┌──────────────┐    ┌──────────┐    ┌─────────────┐    ┌─────────┐    ┌────────────┐    ┌─────────────┐
 │ Requirements │ →  │  Design  │ →  │ Development │ →  │ Testing │ →  │ Deployment │ →  │ Maintenance │
 └──────────────┘    └──────────┘    └─────────────┘    └─────────┘    └────────────┘    └─────────────┘
+```
 
 #### Advantages:
 - **Simple and easy to understand:** The phases are clearly defined.
@@ -159,6 +160,28 @@ The Software Development Life Cycle (SDLC) is a structured methodology used by d
 - **Working software is delivered late**: Users generally don't get usable software until the later stages.
 - **Not suitable for frequently changing requirements**: Projects with rapidly changing business requirements are usually better suited to Agile.
 
+### Spiral Model:
+The Spiral Model is a risk-driven SDLC model where the software is developed through repeated cycles (spirals). Each cycle includes planning, risk analysis, development, and evaluation.
+```
+┌──────────────┐ → ┌──────────────┐ → ┌──────────────┐ → ┌──────────────┐
+│   Planning   │   │ Risk Analysis│   │ Development  │   │   Evaluation │
+└──────────────┘   └──────────────┘   └──────────────┘   └──────────────┘
+        ↑                                                     │
+        └────────────────── Next Spiral / Iteration ──────────┘
+```
+#### Advantages
+- **Risk management** – Risks are identified and addressed early.
+- **Handles changing requirements** – Requirements can be modified in later cycles.
+- **Customer feedback** – Customer feedback is taken at the end of each cycle.
+- **Early prototypes** – Prototypes can be created to validate ideas.
+- **Suitable for large projects** – Useful for complex and high-risk projects.
+  
+#### Disadvantages
+- **Expensive** – Risk analysis and repeated cycles increase cost.
+- **Time-consuming** – Multiple iterations can take longer.
+- **Complex to manage** – Requires experienced project management.
+- **Not suitable for small projects** – The process may be unnecessarily complicated.
+- **Requires strong risk analysis** – Poor risk assessment can negatively affect the project.
 
 ## Types Of Testing
 
