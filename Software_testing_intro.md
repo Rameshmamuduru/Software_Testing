@@ -545,6 +545,78 @@ Is the login secure?
 <img width="1000" height="449" alt="image" src="https://github.com/user-attachments/assets/d4523878-f5a4-4ff8-bc85-caf50b0aad64" />
 
 
+## Various Software Testing Design Techniques:
+
+### Equivalence Class Partitioning (ECP)
+Divide the input into groups and test one value from each group.
+```
+        AGE
+         │
+   ┌─────┼─────┐
+   │     │     │
+ < 18  18-60  > 60
+Invalid Valid  Invalid
+```
+### 2. Boundary Value Analysis (BVA):
+Test the values at and around the limits/boundaries.
+```
+Valid age = 18 to 60
+
+17   18   19              59   60   61
+│    │    │               │    │    │
+❌   ✅   ✅              ✅   ✅   ❌
+
+```
+
+### 3. Decision Table Testing
+Use a table when the result depends on multiple conditions.
+```
+| Income > ₹50K | Credit Score > 700 | Result      |
+| ------------- | ------------------ | ----------- |
+| Yes           | Yes                | **Approve** |
+| Yes           | No                 | Reject      |
+| No            | Yes                | Reject      |
+| No            | No                 | Reject      |
+
+```
+### 4. State Transition Testing
+Test how the application behaves when it moves from one state to another.
+```
+        Correct PIN
+             ↓
+          ACTIVE
+             │
+       Wrong PIN
+             ↓
+       1st attempt
+             │
+       Wrong PIN
+             ↓
+       2nd attempt
+             │
+       Wrong PIN
+             ↓
+         BLOCKED
+```
+### 5. Error Guessing
+Use your experience to guess where defects are likely to occur.
+```
+Username = blank
+Password = blank
+
+Username = valid
+Password = invalid
+
+Very long username
+
+Special characters
+
+Spaces
+
+Copy/paste password
+
+Multiple clicks on Login
+```
 
 
 
