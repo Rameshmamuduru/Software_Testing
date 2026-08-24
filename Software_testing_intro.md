@@ -540,11 +540,9 @@ Is the login secure?
 - **Adhoc testing**: testing randomly with test cases/documents. (aware of application with any documents, not plan no test cases)
   - it was a informal testing type to break the system and this was an unplanned testing. 
 
-- **Monkey testing**: suitable for gaming application
+- **Monkey testing**: suitable for gaming application.
 
 <img width="1000" height="449" alt="image" src="https://github.com/user-attachments/assets/d4523878-f5a4-4ff8-bc85-caf50b0aad64" />
-
-
 
 
 
