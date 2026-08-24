@@ -1,4 +1,4 @@
-## testing:
+## Testing:
 Testing is a systematic process used to **verify and validate** that a product, its main **purpose** is to **identify errors, bugs, or missing requirements before the product is released**, ensuring reliability, security, and high performance while reducing risks and costs associated with failures.
 
 ## modules of manual testing:
@@ -454,7 +454,9 @@ GUI / UI TESTING
     ├── Navigation
     ├── Scrollbars
     └── Different screen resolutions
+```
 
+```
                          SOFTWARE TESTING
                                 │
                          HOW TEST IS EXECUTED
@@ -472,12 +474,44 @@ GUI / UI TESTING
 ```
 
 
+## Non-Functional Testing:
+Non-Functional Testing checks how well the software works rather than what functions it performs.
 
+### Questions:
+```
+How fast is login?
+Can the system handle 1,000 users?
+Is the login secure?
+```
+### Non-Functional Parameters: (Separate Customer Document)
+- Performance Testing:
+  - Load Testing: Size/traffic by Virtual users using specific tools
+    | Tool                                 | Common Use                                      | Popularity   |
+    | ------------------------------------ | ----------------------------------------------- | ----------   |
+    | **Apache JMeter**                    | Load, stress, API/web performance testing       | ⭐⭐⭐⭐⭐ |
+    | **LoadRunner / OpenText LoadRunner** | Enterprise performance testing                  | ⭐⭐⭐⭐⭐ |
+    | **Gatling**                          | High-performance load testing, often with CI/CD | ⭐⭐⭐⭐    |
+    | **k6**                               | Modern API/load testing, DevOps-friendly        | ⭐⭐⭐⭐⭐  |
 
+    **"The key performance metrics are response time, throughput, concurrent users, error rate, CPU utilization, memory utilization, network utilization, disk I/O, and response-time percentiles such as         P95 and P99."**
 
+  - Stress testing: with unexpected or beyond the load 
+  - Endurance testing: Stability of the application for long time (based on time), how much time does application handle the expected load.
+  - spike testing: Sudden increasing and decreasing in the load
+  - volume testing: related to DB, how much data does DB can handle (on Size of the DB and how much data can hold the DB)
 
+<img width="529" height="185" alt="image" src="https://github.com/user-attachments/assets/abbaa9df-ca96-4a0d-a0b3-408d59ffbdad" />
 
-
+- Security Testing: (Main aspects in this test **authentication & Authorization**
+  - Focus on
+    - network security
+    - vulnerabilities
+    - Data encryption & Decryption
+- Recovery testing: back to normal under any abnormal situation without losing Data.
+- Compatibility: OS,Browser,H/D - with hardware compatibility/configuration etc. (cross Browser testing)
+- Forward and backward compatibilities
+- Installation testing: easiness in the installation and for uninstall as well.
+- Sanitation/garbage testing: extra feature also considers as bugs and should be removed.
 
 
 
