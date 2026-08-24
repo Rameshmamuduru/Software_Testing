@@ -183,6 +183,42 @@ The Spiral Model is a risk-driven SDLC model where the software is developed thr
 - **Not suitable for small projects** – The process may be unnecessarily complicated.
 - **Requires strong risk analysis** – Poor risk assessment can negatively affect the project.
 
+
+### V-Model (Verification and Validation Model)
+
+The V-Model is an SDLC model where development activities and corresponding testing activities are planned in parallel. It is called the V-Model because the process looks like the letter V.
+```
+Requirements Analysis              Acceptance Testing
+        ↓                                  ↑
+System Design                     System Testing
+        ↓                                  ↑
+High-Level Design                Integration Testing
+        ↓                                  ↑
+Low-Level Design                     Unit Testing
+        ↓                                  ↑
+               Coding / Implementation
+```
+#### Advantages
+- Testing is planned early.
+- Defects can be identified earlier.
+- Clear and structured process.
+- Good documentation.
+- Suitable when requirements are stable and well understood.
+- Works well for projects where quality and compliance are important.
+  
+#### Disadvantages
+- Difficult to accommodate changing requirements.
+- Working software is generally available late.
+- Changes can be expensive.
+- Not ideal for highly dynamic projects.
+- Requires requirements to be clearly defined at the beginning.
+
+##### Types of testing in V Model:
+- Static testing: correctness and completeness
+  -  can be done using **review, walkthrough and inspection**
+- Dynamic Testing: Unit, Integration, system and UAT testing's
+  
+=====================================================================================================
 ## Types Of Testing
 
 ### 4. Testing Based on Code Knowledge
