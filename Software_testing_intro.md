@@ -618,6 +618,13 @@ Copy/paste password
 Multiple clicks on Login
 ```
 
+| Technique                    | Think of it as         |
+| ---------------------------- | ---------------------- |
+| **Equivalence Partitioning** | **Divide into groups** |
+| **BVA**                      | **Test the edges**     |
+| **Decision Table**           | **Test combinations**  |
+| **State Transition**         | **Test state changes** |
+| **Error Guessing**           | **Use experience**     |
 
 
 
