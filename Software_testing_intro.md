@@ -1,3 +1,165 @@
+## testing:
+Testing is a systematic process used to **verify and validate** that a product, its main **purpose** is to **identify errors, bugs, or missing requirements before the product is released**, ensuring reliability, security, and high performance while reducing risks and costs associated with failures.
+
+## modules of manual testing:
+```
+MANUAL TESTING
+│
+├── 1. Software Testing Fundamentals
+│   ├── What is Testing?
+│   ├── QA vs QC vs Testing
+│   ├── Verification vs Validation
+│   ├── Error / Defect / Bug / Failure
+│   └── Severity vs Priority
+│
+├── 2. SDLC
+│   ├── Waterfall
+│   ├── Agile
+│   └── Scrum
+│
+├── 3. STLC
+│   ├── Requirement Analysis
+│   ├── Test Planning
+│   ├── Test Case Development
+│   ├── Test Environment Setup
+│   ├── Test Execution
+│   ├── Defect Reporting
+│   └── Test Closure
+│
+├── 4. Testing Levels
+│   ├── Unit
+│   ├── Integration
+│   ├── System
+│   └── Acceptance / UAT
+│
+├── 5. Testing Types
+│   ├── Functional
+│   └── Non-Functional
+│
+├── 6. Testing Techniques
+│   ├── Black Box
+│   ├── White Box
+│   ├── Grey Box
+│   ├── Equivalence Partitioning
+│   ├── Boundary Value Analysis
+│   ├── Decision Table
+│   └── State Transition
+│
+├── 7. Test Design & Documentation
+│   ├── Test Scenario
+│   ├── Test Case
+│   ├── Test Data
+│   ├── Test Suite
+│   ├── Checklist
+│   └── RTM
+│
+├── 8. Defect Management
+│   ├── Defect Life Cycle
+│   ├── Severity
+│   ├── Priority
+│   ├── Defect Report
+│   └── Retesting
+│
+├── 9. Important Testing Activities
+│   ├── Smoke
+│   ├── Sanity
+│   ├── Regression
+│   ├── Retesting
+│   ├── Exploratory Testing
+│   └── Ad-hoc Testing
+│
+├── 10. GUI / Web Testing
+│   ├── Forms
+│   ├── Buttons
+│   ├── Links
+│   ├── Browser compatibility
+│   ├── Cookies
+│   ├── Sessions
+│   └── Responsive UI
+│
+├── 11. API Testing
+│   ├── HTTP/HTTPS
+│   ├── GET/POST/PUT/PATCH/DELETE
+│   ├── Status Codes
+│   ├── Headers
+│   ├── Request/Response
+│   ├── Authentication
+│   └── Postman
+│
+├── 12. Database Testing
+│   ├── SQL basics
+│   ├── SELECT
+│   ├── INSERT/UPDATE/DELETE
+│   ├── Joins
+│   └── Data validation
+│
+└── 13. Real-World QA Process
+    ├── Jira
+    ├── Test Management
+    ├── Agile/Scrum ceremonies
+    ├── Sprint testing
+    ├── Defect tracking
+    └── Release testing
+```
+
+- software testing concepts
+- STLC
+- Software testing project templates
+- Agile testing and Jira tool
+- AI use in manual testing
+
+## What is Software?
+
+**Software is a collection of instructions that allows a computer or device to perform specific tasks.**
+
+###  Types:
+```
+                         SOFTWARE
+                            │
+          ┌─────────────────┼─────────────────┐
+          │                 │                 │
+    SYSTEM SOFTWARE   APPLICATION         SOFTWARE PROGRAMMING /
+                                          DEVELOPMENT SOFTWARE
+          │                 │                 │
+     Windows/Linux      Chrome            IDEs
+     Device Drivers     WhatsApp          Compilers
+     Firmware           MS Word           Interpreters
+     Utilities          Banking Apps      Debuggers
+```
+### parameters for Quality of product:
+- Bug free
+- Delivered on time
+- within budget
+- meet the requirements/expectations
+- maintainable
+
+## SDLC:
+The Software Development Life Cycle (SDLC) is a structured methodology used by development teams to design, develop, test, deploy, and maintain high-quality software. It provides a systematic framework that ensures software meets customer expectations, adheres to project requirements, and is delivered efficiently. By breaking the development process into distinct phases, SDLC helps manage complexity, reduce risks, and optimize resources.
+
+### Waterfall Model
+
+**The Waterfall Model is a sequential SDLC model where software development is divided into different phases, and each phase is completed before moving to the next phase.**
+
+┌──────────────┐    ┌──────────┐    ┌─────────────┐    ┌─────────┐    ┌────────────┐    ┌─────────────┐
+│ Requirements │ →  │  Design  │ →  │ Development │ →  │ Testing │ →  │ Deployment │ →  │ Maintenance │
+└──────────────┘    └──────────┘    └─────────────┘    └─────────┘    └────────────┘    └─────────────┘
+
+#### Advantages:
+- **Simple and easy to understand:** The phases are clearly defined.
+- **Easy to manage**: Each phase has specific activities and deliverables.
+- **Good documentation**: Requirements, design, test documents, etc. are usually well documented
+- **Easy to track progress**: Project managers can clearly see which phase is completed.
+- **Suitable for stable requirements**: Works well when requirements are known and unlikely to change.
+
+#### Disadvantages
+- **Difficult to handle changes**: Changes to requirements later in the project can be expensive.
+- **Testing happens late**: Testing generally starts after development is completed.
+- **Customer feedback comes late**: Customers may see the working product only near the end.
+- **Higher risk if requirements are wrong**: A mistake in requirements can affect design, development, and testing.
+- **Working software is delivered late**: Users generally don't get usable software until the later stages.
+- **Not suitable for frequently changing requirements**: Projects with rapidly changing business requirements are usually better suited to Agile.
+
+
 ## Types Of Testing
 
 ### 4. Testing Based on Code Knowledge
