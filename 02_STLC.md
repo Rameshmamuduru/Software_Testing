@@ -156,4 +156,39 @@ CRITICAL
 <img width="1077" height="567" alt="image" src="https://github.com/user-attachments/assets/f370dcb6-07e5-4626-b1fb-df27edbcb428" /> <img width="1060" height="549" alt="image" src="https://github.com/user-attachments/assets/0a1aa0aa-e507-4ba7-9ccc-aaf1d1ea9066" /> <img width="1024" height="532" alt="image" src="https://github.com/user-attachments/assets/059f8180-8fce-478e-a04f-0dee42b2dd1e" />
 
 
+# Final Mind Map on SDLC & STLC Required documentation:
+```
+| **STLC Phase**                | **Important Document / Artifact**               | **Purpose**                                                           |
+| ----------------------------- | ----------------------------------------------- | --------------------------------------------------------------------- |
+| **1. Requirement Analysis**   | **BRD**                                         | Understand the business requirements                                  |
+|                               | **SRS / FRS**                                   | Understand functional requirements                                    |
+|                               | **NFR**                                         | Understand performance, security, usability, reliability requirements |
+|                               | **Use Cases / User Stories**                    | Understand user/business workflows                                    |
+|                               | **Requirement Clarification / Queries**         | Resolve unclear or missing requirements                               |
+| **2. Test Planning**          | **Test Plan**                                   | Defines testing scope, strategy, resources, schedule and approach     |
+|                               | **Test Strategy**                               | Defines the overall testing approach and standards                    |
+|                               | **Effort Estimation**                           | Estimates testing effort and resources required                       |
+|                               | **Test Schedule**                               | Defines testing activities and timelines                              |
+|                               | **Risk & Mitigation Plan**                      | Identifies testing risks and how to handle them                       |
+| **3. Test Case Development**  | **Test Scenarios**                              | Defines high-level conditions to be tested                            |
+|                               | **Test Cases**                                  | Defines detailed steps, test data and expected results                |
+|                               | **Test Data**                                   | Provides data required to execute test cases                          |
+|                               | **RTM**                                         | Maps requirements to test scenarios/test cases and ensures coverage   |
+|                               | **Test Case Review Document / Review Comments** | Records review feedback and improvements                              |
+| **4. Test Environment Setup** | **Environment Details**                         | Defines application URL, server, database, browser, OS, etc.          |
+|                               | **Environment Configuration Document**          | Defines required environment configuration                            |
+|                               | **Test Account / Access Details**               | Provides required test users and permissions                          |
+|                               | **Build / Deployment Details**                  | Identifies the application build/version being tested                 |
+| **5. Test Execution**         | **Test Execution Report**                       | Records test case execution results                                   |
+|                               | **Test Results**                                | Shows Pass, Fail, Blocked, Not Executed, etc.                         |
+|                               | **Defect Reports**                              | Records defects identified during testing                             |
+|                               | **Defect Tracking Report**                      | Tracks defect status, severity, priority and resolution               |
+|                               | **Test Evidence**                               | Screenshots, videos, logs and other proof of test results             |
+| **6. Test Closure**           | **Test Summary Report**                         | Provides overall testing results and conclusion                       |
+|                               | **Test Closure Report**                         | Confirms testing completion against exit criteria                     |
+|                               | **RTM Final Version**                           | Confirms final requirement/test coverage                              |
+|                               | **Defect Summary**                              | Summarizes open, closed and outstanding defects                       |
+|                               | **Lessons Learned**                             | Records what went well and what should improve                        |
+|                               | **Sign-off / Approval**                         | Formal confirmation that testing is complete                          |
 
+```
