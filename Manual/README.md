@@ -72,3 +72,6 @@
 | **24** | **Logout**                       | Securely logout from the admin portal                                 |
 
 ```
+### How to understand the Application/system:
+- By using the Functional requirement specificational document (FRS)
+- 
