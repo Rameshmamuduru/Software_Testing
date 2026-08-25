@@ -89,7 +89,39 @@ Priority = How quickly the defect should be fixed.
 | **P2 – Medium** | Fix soon           | Important search issue         |
 | **P3 – Low**    | Can be fixed later | Minor UI alignment             |
 
-
+### mind Map:
+```
+                    DEFECT
+                       │
+                       ↓
+             Is core business flow
+                  affected?
+                  /       \
+                YES        NO
+                 │          │
+                 ↓          ↓
+        Is it completely   Minor/UI/
+          prevented?       cosmetic?
+          /       \          │
+        YES        NO        ↓
+         │          │      LOW
+         ↓          ↓
+ Serious data/   Significant
+ security/       functional
+ financial       impact?
+ impact?         /     \
+   /   \        YES     NO
+ YES    NO       │       │
+  │      │       ↓       ↓
+  ↓      ↓      HIGH    MEDIUM
+CRITICAL
+```
+| Severity        | Think                                                       |
+| --------------- | ----------------------------------------------------------- |
+| 🔴 **Critical** | **Core flow completely broken + severe/widespread impact**  |
+| 🟠 **High**     | **Major functionality significantly broken**                |
+| 🟡 **Medium**   | **Functionality partially affected / workaround available** |
+| 🟢 **Low**      | **Minor/cosmetic issue**                                    |
 
 
 
