@@ -145,3 +145,7 @@ CRITICAL
                             P1     P2         ↓         ↓
                            HIGH   MEDIUM     P2        P2
 ```
+
+## Bug/defect Life cycle:
+
+<img width="1021" height="551" alt="image" src="https://github.com/user-attachments/assets/0eee13c8-a974-47d8-9420-bea8236cef1a" />
