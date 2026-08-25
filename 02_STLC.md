@@ -193,7 +193,7 @@ CRITICAL
 
 ```
 
-## Report TO be Prepared:
+## Report to be Prepared:
 
 ```
 | Report / Document                                | Purpose                                                                                                   | Required? |
@@ -210,5 +210,30 @@ CRITICAL
 | **10. Lessons Learned Report**                   | Captures what went well, what went wrong, challenges, and improvements for future projects                |  **Yes**  |
 | **11. Test Sign-off / Approval**                 | Formal confirmation from QA, Business/Product Owner, and relevant stakeholders that testing can be closed |  **Yes**  |
 | **12. Test Artifacts Archive**                   | Final archive of test cases, scripts, test data, evidence, reports, logs, and automation results          |  **Yes**  |
+
+```
+
+```
+|      # | Test Metric                         | Purpose / What It Measures                                                               | Category                     |
+| -----: | ----------------------------------- | ---------------------------------------------------------------------------------------- | ---------------------------- |
+|  **1** | **Test Case Execution %**           | Percentage of planned test cases that have been executed                                 | **Test-related**             |
+|  **2** | **Test Case Pass %**                | Percentage of executed test cases that passed                                            | **Test-related**             |
+|  **3** | **Test Case Fail %**                | Percentage of executed test cases that failed                                            | **Test-related**             |
+|  **4** | **Test Case Blocked %**             | Percentage of test cases blocked due to dependencies/issues                              | **Test-related**             |
+|  **5** | **Test Coverage**                   | Measures how much of the requirements/functionality has been covered by testing          | **Test-related**             |
+|  **6** | **Requirement Coverage %**          | Percentage of requirements covered by test cases                                         | **Test-related**             |
+|  **7** | **Defect Density**                  | Number of defects identified per requirement or unit of size                             | **Defect-related**           |
+|  **8** | **Defect Removal Efficiency (DRE)** | Measures how effectively defects are identified and removed before reaching the customer | **Defect-related**           |
+|  **9** | **Defect Leakage**                  | Measures defects that escape testing and are found in UAT/production                     | **Defect-related**           |
+| **10** | **Defect Rejection Ratio**          | Percentage of reported defects rejected as invalid, duplicate, not reproducible, etc.    | **Defect-related**           |
+| **11** | **Defect Age**                      | Measures the time taken to resolve a defect from reporting to closure                    | **Defect-related**           |
+| **12** | **Defect Severity Distribution**    | Shows defects categorized as Critical, High, Medium, Low, etc.                           | **Defect-related**           |
+| **13** | **Defect Priority Distribution**    | Shows defects categorized according to business priority                                 | **Defect-related**           |
+| **14** | **Defect Reopen Rate**              | Percentage of closed defects that are reopened                                           | **Defect-related**           |
+| **15** | **Defect Fix Rate**                 | Number/percentage of defects fixed within a specific period                              | **Defect-related**           |
+| **16** | **Customer Satisfaction**           | Measures customer satisfaction through complaints, feedback, surveys, etc.               | **Other / Business-related** |
+| **17** | **Test Productivity**               | Measures testing effort/output, such as test cases executed per tester or per day        | **Other / Productivity**     |
+| **18** | **Automation Coverage**             | Percentage of eligible test cases covered by automation                                  | **Other / Automation**       |
+| **19** | **Test Environment Availability**   | Measures how often the required test environment is available for testing                | **Other / Environment**      |
 
 ```
