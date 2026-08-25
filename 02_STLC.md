@@ -148,4 +148,12 @@ CRITICAL
 
 ## Bug/defect Life cycle:
 
-<img width="1021" height="551" alt="image" src="https://github.com/user-attachments/assets/0eee13c8-a974-47d8-9420-bea8236cef1a" />
+<img width="1021" height="551" alt="image" src="https://github.com/user-attachments/assets/0eee13c8-a974-47d8-9420-bea8236cef1a" /> <img width="1058" height="536" alt="image" src="https://github.com/user-attachments/assets/38569a21-f319-4706-99a4-ee6fdddd5465" />
+
+### Report contents:
+<img width="1112" height="567" alt="image" src="https://github.com/user-attachments/assets/c3f96681-ec0f-48f9-982f-0b8cafc00af5" />
+
+<img width="1077" height="567" alt="image" src="https://github.com/user-attachments/assets/f370dcb6-07e5-4626-b1fb-df27edbcb428" /> <img width="1060" height="549" alt="image" src="https://github.com/user-attachments/assets/0a1aa0aa-e507-4ba7-9ccc-aaf1d1ea9066" /> <img width="1024" height="532" alt="image" src="https://github.com/user-attachments/assets/059f8180-8fce-478e-a04f-0dee42b2dd1e" />
+
+
+
