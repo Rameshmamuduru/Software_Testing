@@ -1,0 +1,12 @@
+## Manual testing project:
+- project introduction
+- understanding and explore the functionality
+- test plan
+- test scenarios
+- test cases and reviews
+- test environment and Build Deployment
+- Test Execution
+- Bug reporting and tracking
+- Sanity testing, re-testing and regression testing
+- test reports
+- Test signoFF
