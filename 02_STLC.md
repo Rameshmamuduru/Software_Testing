@@ -79,16 +79,6 @@ Priority = How quickly the defect should be fixed.
 | 🟡 **Medium**   | Functionality is partially affected   | Search filter doesn't work     |
 | 🟢 **Low**      | Minor issue                           | UI alignment/spelling issue    |
 
-
-### Priority:
-- How urgently does the business need this fixed
-
-| Priority        | Meaning            | Example                        |
-| --------------- | ------------------ | ------------------------------ |
-| **P1 – High**   | Fix immediately    | Payment failure before release |
-| **P2 – Medium** | Fix soon           | Important search issue         |
-| **P3 – Low**    | Can be fixed later | Minor UI alignment             |
-
 ### mind Map:
 ```
                     DEFECT
@@ -124,4 +114,34 @@ CRITICAL
 | 🟢 **Low**      | **Minor/cosmetic issue**                                    |
 
 
+### Priority:
+- How urgently does the business need this fixed
 
+| Priority        | Meaning            | Example                        |
+| --------------- | ------------------ | ------------------------------ |
+| **P1 – High**   | Fix immediately    | Payment failure before release |
+| **P2 – Medium** | Fix soon           | Important search issue         |
+| **P3 – Low**    | Can be fixed later | Minor UI alignment             |
+
+### Mind Map
+```
+                         DEFECT
+                            ↓
+              Does it have business impact?
+                       /           \
+                     NO             YES
+                     ↓               ↓
+              Can it be fixed    Does it affect
+                later?           customers/revenue/
+                     ↓           critical business flow?
+                   P3              /          \
+                LOW PRIORITY     YES           NO
+                                  ↓             ↓
+                         Is an immediate    Can the business
+                         fix required?      continue with a
+                              /   \          workaround?
+                            YES    NO          /      \
+                             ↓      ↓        YES       NO
+                            P1     P2         ↓         ↓
+                           HIGH   MEDIUM     P2        P2
+```
