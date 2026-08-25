@@ -66,6 +66,8 @@ Priority = How quickly the defect should be fixed.
                        BUG 🐞
 ```
 
+<img width="573" height="192" alt="image" src="https://github.com/user-attachments/assets/eafa2530-be58-4a4f-b84b-0d108c8d3e50" />
+
 
 
 
