@@ -192,3 +192,23 @@ CRITICAL
 |                               | **Sign-off / Approval**                         | Formal confirmation that testing is complete                          |
 
 ```
+
+## Report TO be Prepared:
+
+```
+| Report / Document                                | Purpose                                                                                                   | Required? |
+| ------------------------------------------------ | --------------------------------------------------------------------------------------------------------- | :-------: |
+| **1. Test Summary Report (TSR)**                 | Overall summary of testing activities, scope, execution, results, defects, and quality status             |  **Yes**  |
+| **2. Test Closure Report**                       | Officially confirms that testing is completed and closure criteria are met                                |  **Yes**  |
+| **3. Defect Summary Report**                     | Shows total defects, severity, priority, status, reopened/closed defects, and outstanding defects         |  **Yes**  |
+| **4. Test Execution Report**                     | Shows total test cases executed, passed, failed, blocked, and not executed                                |  **Yes**  |
+| **5. Requirements Traceability Matrix (RTM)**    | Confirms that requirements were covered by test cases and identifies any gaps                             |  **Yes**  |
+| **6. Test Metrics Report**                       | Provides metrics such as pass %, defect density, defect leakage, test coverage, and execution progress    |  **Yes**  |
+| **7. Defect Leakage / Production Defect Report** | Identifies defects that escaped testing and reached production                                            |   **No**  |
+| **8. Open Defect Report**                        | Lists defects remaining at closure, including accepted risks and deferred defects                         |  **Yes**  |
+| **9. Test Environment Report**                   | Documents the test environment, configurations, versions, tools, and data used                            |   **No**  |
+| **10. Lessons Learned Report**                   | Captures what went well, what went wrong, challenges, and improvements for future projects                |  **Yes**  |
+| **11. Test Sign-off / Approval**                 | Formal confirmation from QA, Business/Product Owner, and relevant stakeholders that testing can be closed |  **Yes**  |
+| **12. Test Artifacts Archive**                   | Final archive of test cases, scripts, test data, evidence, reports, logs, and automation results          |  **Yes**  |
+
+```
