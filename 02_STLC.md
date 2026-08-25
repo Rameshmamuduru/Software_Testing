@@ -48,4 +48,26 @@ Priority = How quickly the defect should be fixed.
 ## RTM:
 <img width="1128" height="541" alt="image" src="https://github.com/user-attachments/assets/ca6d9930-66ea-4766-a269-979769058119" /> <img width="569" height="227" alt="image" src="https://github.com/user-attachments/assets/8641d139-9226-4661-877a-715428397160" />
 
+```
+                    LOGIN TEST CASE
+                           │
+             ┌─────────────┼─────────────┐
+             ↓             ↓             ↓
+          Works         Doesn't       Cannot
+         correctly       work         execute
+             ↓             ↓             ↓
+          PASS ✅        FAIL ❌      BLOCKED 🚫
+                           ↓
+                    Investigate issue
+                           ↓
+                       BUG 🐞
+```
+
+
+
+
+
+
+
+
 
