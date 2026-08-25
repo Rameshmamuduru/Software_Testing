@@ -68,9 +68,26 @@ Priority = How quickly the defect should be fixed.
 
 <img width="573" height="192" alt="image" src="https://github.com/user-attachments/assets/eafa2530-be58-4a4f-b84b-0d108c8d3e50" />
 
+## Defect Reporting and Tracking:
+### Severity: 
+- How badly does this defect affect the application
+  
+| Severity        | Meaning                               | Example                        |
+| --------------- | ------------------------------------- | ------------------------------ |
+| 🔴 **Critical** | System/core functionality is unusable | Payment completely unavailable |
+| 🟠 **High**     | Major functionality is broken         | User cannot log in             |
+| 🟡 **Medium**   | Functionality is partially affected   | Search filter doesn't work     |
+| 🟢 **Low**      | Minor issue                           | UI alignment/spelling issue    |
 
 
+### Priority:
+- How urgently does the business need this fixed
 
+| Priority        | Meaning            | Example                        |
+| --------------- | ------------------ | ------------------------------ |
+| **P1 – High**   | Fix immediately    | Payment failure before release |
+| **P2 – Medium** | Fix soon           | Important search issue         |
+| **P3 – Low**    | Can be fixed later | Minor UI alignment             |
 
 
 
