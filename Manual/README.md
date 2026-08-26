@@ -2,7 +2,10 @@
 ```
 Functional + validation + boundary + negative + UI + security + compatibility,
 ```
-
+## Test Stage Flow:
+```
+New build -> Build -> smoke testing -> functional testing -> Bug found -> Bug Fix -> Re-testing -> Regression testing -> Integration/E2E Testing -> Exploratory/compatibility/security/performance* -> test Closure -> Release/UAT
+```
 
 ## Manual testing project:
 - project introduction
