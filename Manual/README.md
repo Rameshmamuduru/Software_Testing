@@ -75,3 +75,184 @@
 ### How to understand the Application/system:
 - By using the Functional requirement specificational document (FRS)
 - 
+
+### UI security checklist:
+
+```text
+Registration
+├── Password policy
+├── Duplicate accounts
+├── Account enumeration
+├── Email/OTP verification
+├── Rate limiting
+├── Input validation
+├── Role manipulation
+└── Sensitive data exposure
+```
+
+### Login
+
+```text
+Login
+├── Authentication bypass
+├── Brute-force protection
+├── Account enumeration
+├── Session management
+├── Session timeout
+├── Logout/session invalidation
+├── Input validation
+├── Password protection
+├── Authorization
+└── Sensitive data exposure
+```
+
+### Search
+
+```text
+Search
+├── Input validation
+├── XSS protection
+├── Injection protection
+├── Excessive/oversized input handling
+├── Unauthorized data exposure
+├── Search parameter manipulation
+├── Rate limiting
+└── Sensitive data exposure
+```
+
+### Product
+
+```text
+Product
+├── Unauthorized product access
+├── Product ID manipulation
+├── Price manipulation
+├── Stock manipulation
+├── XSS in product data/reviews
+├── Unauthorized product modification
+├── Sensitive data exposure
+└── API authorization
+```
+
+### Cart
+
+```text
+Cart
+├── Unauthorized cart access
+├── Other user's cart access
+├── Product ID manipulation
+├── Quantity manipulation
+├── Price manipulation
+├── Discount/coupon manipulation
+├── Stock validation
+├── Cart/session manipulation
+├── API authorization
+└── Sensitive data exposure
+```
+
+### Checkout
+
+```text
+Checkout
+├── Unauthorized checkout access
+├── Other user's checkout access
+├── Price manipulation
+├── Quantity manipulation
+├── Discount manipulation
+├── Shipping-cost manipulation
+├── Address manipulation
+├── Order/user ID manipulation
+├── Input validation
+├── API authorization
+└── Sensitive data exposure
+```
+
+### Payment
+
+```text
+Payment
+├── Payment authorization
+├── Payment amount manipulation
+├── Order ID manipulation
+├── Transaction replay/duplicate requests
+├── Payment-status manipulation
+├── Unauthorized payment access
+├── Payment response validation
+├── Sensitive payment data protection
+├── API authentication/authorization
+└── Secure communication
+```
+
+### Orders
+
+```text
+Orders
+├── Unauthorized order access
+├── Other user's order access
+├── Order ID manipulation
+├── Order-status manipulation
+├── Cancellation authorization
+├── Refund authorization
+├── Order data exposure
+├── API authorization
+└── Session validation
+```
+
+### User Profile
+
+```text
+User Profile
+├── Unauthorized profile access
+├── Other user's profile access
+├── User ID manipulation
+├── Email-change authorization
+├── Password-change authorization
+├── Input validation
+├── XSS protection
+├── Session validation
+└── Sensitive data exposure
+```
+
+### Password Reset
+
+```text
+Password Reset
+├── Account enumeration
+├── Reset-token security
+├── Token expiration
+├── Token reuse
+├── Token manipulation
+├── Rate limiting
+├── Password policy
+├── Unauthorized password change
+└── Sensitive data exposure
+```
+
+### File Upload
+
+```text
+File Upload
+├── File-type validation
+├── File-size validation
+├── Malicious-file handling
+├── Filename/path manipulation
+├── Unauthorized file access
+├── File execution prevention
+├── Content-type validation
+└── Sensitive file exposure
+```
+
+### Admin
+
+```text
+Admin
+├── Role/privilege escalation
+├── Unauthorized admin access
+├── Admin API authorization
+├── User-management authorization
+├── Product-management authorization
+├── Order-management authorization
+├── Audit/logging
+├── Input validation
+└── Sensitive data exposure
+```
