@@ -1,6 +1,6 @@
 ## testing can be includes on all the below aspecst:
 ```
-Functional + validation + boundary + negative + UI + security + API/integration + data + compatibility,
+Functional + validation + boundary + negative + UI + security + compatibility,
 ```
 
 
