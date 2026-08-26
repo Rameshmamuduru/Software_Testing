@@ -1,3 +1,9 @@
+## testing can be includes on all the below aspecst:
+```
+Functional + validation + boundary + negative + UI + security + API/integration + data + compatibility,
+```
+
+
 ## Manual testing project:
 - project introduction
 - understanding and explore the functionality
