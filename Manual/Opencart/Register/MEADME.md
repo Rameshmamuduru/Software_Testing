@@ -202,7 +202,7 @@ REGISTRATION
 │
 ├── Security
 │   ├── Password protection
-│   ├── XSS/injection
+│   ├── XSS/injection ( <script>alert('XSS')</script>  and <image src=x oneerror=alert('XSS')>
 │   ├── Enumeration
 │   ├── Rate limiting
 │   ├── Role manipulation
