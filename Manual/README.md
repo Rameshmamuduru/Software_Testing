@@ -84,7 +84,158 @@ New build -> Build -> smoke testing -> functional testing -> Bug found -> Bug Fi
 ### How to understand the Application/system:
 - By using the Functional requirement specificational document (FRS)
 - 
-
+## Customer UI Module Functions:
+```
+CUSTOMER SIDE
+│
+├── 1. Registration
+│   ├── Access Registration
+│   ├── Successful Registration
+│   ├── Account Creation
+│   ├── Email/OTP Verification
+│   ├── Account Activation
+│   └── Post-Registration Login
+│
+├── 2. Login
+│   ├── Access Login
+│   ├── Successful Authentication
+│   ├── Remember Me
+│   ├── Forgot Password
+│   ├── Logout
+│   ├── Login Navigation
+│   └── Post-Login Access
+│
+├── 3. Home Page
+│   ├── Access Home Page
+│   ├── View Featured Products
+│   ├── View Categories
+│   ├── View Promotions
+│   ├── Navigate to Products
+│   └── Navigate to Other Sections
+│
+├── 4. Search
+│   ├── Search Products
+│   ├── View Search Results
+│   ├── Search by Product Name
+│   ├── Search by Keyword
+│   ├── Filter Search Results
+│   ├── Sort Search Results
+│   └── Navigate Through Search Results
+│
+├── 5. Product Catalog
+│   ├── View Product Categories
+│   ├── View Products
+│   ├── Browse Products
+│   ├── Filter Products
+│   ├── Sort Products
+│   ├── Pagination
+│   └── Navigate to Product Details
+│
+├── 6. Product Details
+│   ├── View Product Details
+│   ├── View Product Images
+│   ├── View Price
+│   ├── View Product Description
+│   ├── View Availability/Stock
+│   ├── Select Product Variant
+│   ├── Select Quantity
+│   ├── Add Product to Cart
+│   └── Add Product to Wishlist
+│
+├── 7. Wishlist
+│   ├── Add Product to Wishlist
+│   ├── View Wishlist
+│   ├── Remove Product from Wishlist
+│   ├── Move Product from Wishlist to Cart
+│   └── Manage Wishlist Items
+│
+├── 8. Cart
+│   ├── Add Product to Cart
+│   ├── View Cart
+│   ├── Update Product Quantity
+│   ├── Remove Product
+│   ├── Clear Cart
+│   ├── Apply Coupon/Discount
+│   ├── Remove Coupon/Discount
+│   ├── View Cart Total
+│   └── Proceed to Checkout
+│
+├── 9. Checkout
+│   ├── Start Checkout
+│   ├── Select/Add Shipping Address
+│   ├── Select Delivery Method
+│   ├── Apply Available Discount
+│   ├── Review Order
+│   ├── Select Payment Method
+│   └── Place Order
+│
+├── 10. Payment
+│   ├── Select Payment Method
+│   ├── Initiate Payment
+│   ├── Complete Payment
+│   ├── Handle Successful Payment
+│   ├── Handle Failed Payment
+│   └── Return to Order After Payment
+│
+├── 11. Order
+│   ├── Create Order
+│   ├── View Order Confirmation
+│   ├── View Order History
+│   ├── View Order Details
+│   ├── Track Order
+│   ├── Cancel Order
+│   ├── Request Return
+│   ├── Request Refund
+│   └── Reorder
+│
+├── 12. User Profile / My Account
+│   ├── View Profile
+│   ├── Update Profile
+│   ├── Change Password
+│   ├── Manage Email/Phone
+│   ├── Manage Addresses
+│   └── Manage Account Preferences
+│
+├── 13. Address Management
+│   ├── Add Address
+│   ├── View Address
+│   ├── Edit Address
+│   ├── Delete Address
+│   └── Set Default Address
+│
+├── 14. Reviews & Ratings
+│   ├── View Reviews
+│   ├── Submit Product Review
+│   ├── Submit Rating
+│   ├── Edit Review
+│   └── Delete Review
+│
+├── 15. Notifications
+│   ├── Receive Registration Notification
+│   ├── Receive Order Confirmation
+│   ├── Receive Payment Confirmation
+│   ├── Receive Shipping Notification
+│   ├── Receive Delivery Notification
+│   └── Receive Cancellation/Refund Notification
+│
+├── 16. Returns & Refunds
+│   ├── Initiate Return
+│   ├── Select Return Reason
+│   ├── Submit Return Request
+│   ├── Track Return
+│   ├── Request Refund
+│   └── View Refund Status
+│
+├── 17. Customer Support
+│   ├── Access Help/Support
+│   ├── Search Help Articles
+│   ├── Create Support Request
+│   ├── View Support Request
+│   └── Track Support Request
+│
+└── 18. Logout
+    └── User can successfully log out
+```
 ### UI security checklist:
 
 ```text
