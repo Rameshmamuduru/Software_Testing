@@ -84,6 +84,10 @@ it was a framework, which will be used to build a software product by following 
 | **Story Point**                    | A number used to estimate the **effort/complexity** of a User Story                              | Login = 3 points, Payment = 8 points                              |
 | **Burnout Chart / Burndown Chart** | Chart that shows **how much work is remaining during a Sprint**                                  | Remaining points decrease from 40 → 30 → 20 → 10 → 0              |
 
+<img width="569" height="292" alt="image" src="https://github.com/user-attachments/assets/4b0a652a-833c-4afa-a010-76d3e58bc630" /> <img width="544" height="253" alt="image" src="https://github.com/user-attachments/assets/e73c8818-473f-423a-98e1-df5db50f88ca" /> <img width="552" height="274" alt="image" src="https://github.com/user-attachments/assets/23d086c9-8300-4379-b3cd-d703f8335309" /> <img width="550" height="210" alt="image" src="https://github.com/user-attachments/assets/2a056d70-2924-4323-89c1-68f679b167cc" />
+
+
+
 
 
 
