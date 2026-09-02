@@ -21,6 +21,10 @@ Agile is an iterative and incremental approach where software is developed, test
 
 ## Frame Works:
 
+```text
+A framework is basically a ready-made structure or set of rules that helps you do something in an organized way.
+```
+
 **Agile** = overall approach/philosophy
 
 **Scrum** = a specific framework used to follow Agile
