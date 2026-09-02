@@ -86,6 +86,9 @@ it was a framework, which will be used to build a software product by following 
 
 <img width="569" height="292" alt="image" src="https://github.com/user-attachments/assets/4b0a652a-833c-4afa-a010-76d3e58bc630" /> <img width="544" height="253" alt="image" src="https://github.com/user-attachments/assets/e73c8818-473f-423a-98e1-df5db50f88ca" /> <img width="552" height="274" alt="image" src="https://github.com/user-attachments/assets/23d086c9-8300-4379-b3cd-d703f8335309" /> <img width="550" height="210" alt="image" src="https://github.com/user-attachments/assets/2a056d70-2924-4323-89c1-68f679b167cc" />
 
+## Story Point 
+<img width="566" height="295" alt="image" src="https://github.com/user-attachments/assets/85160ba5-8a4d-4c1c-9bf4-cc8118f5356e" /> <img width="542" height="232" alt="image" src="https://github.com/user-attachments/assets/ee2bab04-4039-4090-aa3a-312c192e2890" />
+
 
 
 
