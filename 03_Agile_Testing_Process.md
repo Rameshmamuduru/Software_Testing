@@ -69,10 +69,20 @@ it was a framework, which will be used to build a software product by following 
 ## Agile Scrum Process:
 <img width="1098" height="517" alt="image" src="https://github.com/user-attachments/assets/388f1768-7b2a-40f2-8224-879e5c4df08b" />
 
+### Scrum Technology:
 
-
-
-
+| Term                               | Simple Meaning                                                                                   | Example – E-commerce                                              |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------- |
+| **User Story**                     | A small requirement or functionality written from the user's point of view                       | “As a user, I want to login to my account.”                       |
+| **Epic**                           | A large requirement that is divided into multiple User Stories                                   | **Cart Management** → Add cart, Remove item, Update quantity      |
+| **Product Backlog**                | List of **all User Stories/features** that need to be developed                                  | Register, Login, Search, Cart, Checkout, Payment                  |
+| **Sprint**                         | A fixed period in which selected User Stories are developed and completed                        | 2-week Sprint → Login + Registration                              |
+| **Sprint Planning Meeting**        | Meeting where the team decides **what work will be done in the Sprint**                          | Team selects Login and Registration                               |
+| **Sprint Backlog**                 | List of User Stories/tasks selected for the **current Sprint**                                   | Sprint 1 → Login + Registration + Testing                         |
+| **Scrum Meeting / Daily Scrum**    | Short daily meeting where team members discuss **progress, today's work, and blockers**          | Tester: “Yesterday I tested Login; today I'll test Registration.” |
+| **Sprint Retrospective Meeting**   | Meeting held after the Sprint to discuss **what went well, what went wrong, and how to improve** | Team decides to improve communication between Dev and QA          |
+| **Story Point**                    | A number used to estimate the **effort/complexity** of a User Story                              | Login = 3 points, Payment = 8 points                              |
+| **Burnout Chart / Burndown Chart** | Chart that shows **how much work is remaining during a Sprint**                                  | Remaining points decrease from 40 → 30 → 20 → 10 → 0              |
 
 
 
