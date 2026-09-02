@@ -61,7 +61,7 @@ it was a framework, which will be used to build a software product by following 
 - accept or reject the work result.
 
 **Scrum Master**
-- The main role facilitating and diving the agile process.
+- The main role facilitating and driving the agile process.
 
 **Developers and QA**:
 - Develop and Test of the software
