@@ -27,7 +27,7 @@ A framework is basically a ready-made structure or set of rules that helps you d
 
 **Agile** = overall approach/philosophy
 
-**Scrum** = a specific framework used to follow Agile
+**Scrum** = a specific framework used to follow Agile to achieve the agile principles.
 
 | Term                | Meaning                                           |
 | ------------------- | ------------------------------------------------- |
@@ -41,3 +41,38 @@ A framework is basically a ready-made structure or set of rules that helps you d
 | **Testing**         | Testers test the features continuously            |
 | **Sprint Review**   | Team demonstrates completed work                  |
 | **Retrospective**   | Team discusses what went well and what to improve |
+
+
+## Scrum:
+
+it was a framework, which will be used to build a software product by following the agile principles.
+
+**Scrum** includes group of peoples called as Scrum Team
+
+- Product Owners
+- scrum master
+- Dev Team
+- QA Team
+
+**Product Owners**:
+- Define the features of the software.
+- prioritize the features according to market value
+- adjust the features and priorities for every iteration, as needed
+- accept or reject the work result.
+
+**Scrum Master**
+- The main role facilitating and diving the agile process.
+
+**Developers and QA**:
+- Develop and Test of the software
+
+
+
+
+
+
+
+
+
+
+
