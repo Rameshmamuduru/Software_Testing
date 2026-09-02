@@ -66,7 +66,8 @@ it was a framework, which will be used to build a software product by following 
 **Developers and QA**:
 - Develop and Test of the software
 
-
+## Agile Scrum Process:
+<img width="1098" height="517" alt="image" src="https://github.com/user-attachments/assets/388f1768-7b2a-40f2-8224-879e5c4df08b" />
 
 
 
