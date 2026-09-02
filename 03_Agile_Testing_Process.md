@@ -22,6 +22,7 @@ Agile is an iterative and incremental approach where software is developed, test
 ## Frame Works:
 
 **Agile** = overall approach/philosophy
+
 **Scrum** = a specific framework used to follow Agile
 
 | Term                | Meaning                                           |
