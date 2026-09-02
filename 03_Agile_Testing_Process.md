@@ -4,3 +4,35 @@ Agile is an iterative and incremental approach where software is developed, test
 - it is a Iterative and Incremental Approach.
 - Here we have agile Testing type where testing will follow the Agile Principles.
 
+### Advantages:
+- Requirement changes are allowed in middle of the development
+- Release Will be very fast (Weekly Sprints)
+- customer need not to wait for long time.
+- good communication b/w the team
+- easy model to adopt
+### Disadvantages:
+- Less focus on design and documentation since we deliver software very faster.
+
+## Principle of Agile:
+- Customer Satisfaction
+- face to face communication
+- sustainable development
+- quick respond to changes.
+
+## Frame Works:
+
+**Agile** = overall approach/philosophy
+**Scrum** = a specific framework used to follow Agile
+
+| Term                | Meaning                                           |
+| ------------------- | ------------------------------------------------- |
+| **Agile**           | A flexible approach to software development       |
+| **Sprint**          | A short development cycle, commonly 1–4 weeks     |
+| **Product Backlog** | List of all features/tasks to be developed        |
+| **User Story**      | A requirement written from the user's perspective |
+| **Daily Scrum**     | Short daily team meeting                          |
+| **Sprint Planning** | Decide what work will be done in the sprint       |
+| **Development**     | Developers implement the stories                  |
+| **Testing**         | Testers test the features continuously            |
+| **Sprint Review**   | Team demonstrates completed work                  |
+| **Retrospective**   | Team discusses what went well and what to improve |
