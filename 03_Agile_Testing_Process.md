@@ -95,6 +95,10 @@ it was a framework, which will be used to build a software product by following 
 ## Cheat Sheet:
 <img width="1110" height="621" alt="image" src="https://github.com/user-attachments/assets/99e88904-bdb0-452a-807b-105e94bdedf3" />
 
+## Product Backlog Template:
+<img width="1136" height="283" alt="image" src="https://github.com/user-attachments/assets/91675035-f39b-42b7-9d97-939125846e25" />
 
+## Sprint Backlog:
+<img width="1148" height="432" alt="image" src="https://github.com/user-attachments/assets/1bdd9a57-5219-4a79-845a-1bd9fe7f7d2e" />
 
 
