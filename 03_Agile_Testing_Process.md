@@ -101,4 +101,6 @@ it was a framework, which will be used to build a software product by following 
 ## Sprint Backlog:
 <img width="1148" height="432" alt="image" src="https://github.com/user-attachments/assets/1bdd9a57-5219-4a79-845a-1bd9fe7f7d2e" />
 
+## DEV vs QA Tasks:
+<img width="482" height="216" alt="image" src="https://github.com/user-attachments/assets/84f68d54-847b-4617-83a4-61d97be1f3cc" />
 
