@@ -21,28 +21,6 @@ Agile is an iterative and incremental approach where software is developed, test
 
 ## Frame Works:
 
-```text
-A **framework** is basically a ready-made structure or set of rules that helps you do something in an organized way.
-```
-
-**Agile** = overall approach/philosophy
-
-**Scrum** = a specific framework used to follow Agile to achieve the agile principles.
-
-| Term                | Meaning                                           |
-| ------------------- | ------------------------------------------------- |
-| **Agile**           | A flexible approach to software development       |
-| **Sprint**          | A short development cycle, commonly 1–4 weeks     |
-| **Product Backlog** | List of all features/tasks to be developed        |
-| **User Story**      | A requirement written from the user's perspective |
-| **Daily Scrum**     | Short daily team meeting                          |
-| **Sprint Planning** | Decide what work will be done in the sprint       |
-| **Development**     | Developers implement the stories                  |
-| **Testing**         | Testers test the features continuously            |
-| **Sprint Review**   | Team demonstrates completed work                  |
-| **Retrospective**   | Team discusses what went well and what to improve |
-
-
 ## Scrum:
 
 it was a framework, which will be used to build a software product by following the agile principles.
