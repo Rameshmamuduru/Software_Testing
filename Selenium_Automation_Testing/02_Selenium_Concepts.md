@@ -18,6 +18,7 @@ Selenium provides multiple locator strategies to identify and interact with elem
 | 8 | **Relative Locators   |  locate elements based on their spatial relationship to other elements
 ```
 
+<img width="1189" height="490" alt="image" src="https://github.com/user-attachments/assets/8400729b-4f7e-4942-babc-c43e15d85173" />
 
 
 
