@@ -11,3 +11,18 @@
 | Frontend development    | **No**                      |
 | Building complete UI    | **No**                      |
 
+``` 
+HTML basics
+     ↓
+DOM understanding
+     ↓
+Attributes
+     ↓
+CSS selectors
+     ↓
+XPath
+     ↓
+Selenium locators
+     ↓
+UI Automation
+```
