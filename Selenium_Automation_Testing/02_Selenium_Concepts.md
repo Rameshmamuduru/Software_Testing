@@ -15,7 +15,7 @@ Selenium provides multiple locator strategies to identify and interact with elem
 | 6 | **Partial Link Text** | `By.partialLinkText("Log")`           |
 | 7 | **CSS Selector**      | `By.cssSelector("#username")`         |
 | 8 | **XPath**             | `By.xpath("//input[@id='username']")` |
-| 8 | **Relative Locators   |                                       |  locate elements based on their spatial relationship to other elements
+| 8 | **Relative Locators   |  locate elements based on their spatial relationship to other elements
 ```
 
 
