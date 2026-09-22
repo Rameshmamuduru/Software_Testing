@@ -123,15 +123,17 @@ LEVEL 6 — Position
 <img width="1173" height="301" alt="image" src="https://github.com/user-attachments/assets/d60948e0-381b-4c2f-873a-d9c620919dbb" />
 
 **Ways to generate relative Xpaths**
-1. Automative
+**1. Automative**
 
 - Using Devtools/SelectorHub
   
-3. Manual
+**3. Manual**
 
 ```
-//tagName[@attribute='value']
+//tagName[@attribute='value']                          //Single Attribute
 //*[@attribute='value']
+
+//*[@attribute='value'][@attribute='value']            //Multiple Attributr
 ```
 
 
