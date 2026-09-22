@@ -134,6 +134,11 @@ LEVEL 6 — Position
 //*[@attribute='value']
 
 //*[@attribute='value'][@attribute='value']            //Multiple Attributr
+
+// Using And/or operator
+//*[@attribute='value' and @attribute='value']
+//*[@attribute='value' or @attribute='value'] 
+
 ```
 
 
