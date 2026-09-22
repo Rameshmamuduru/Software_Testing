@@ -108,11 +108,31 @@ LEVEL 6 — Position
 ```
 
 
+## XPath
 
+- XPath stands for XML Path Language, XPath is a way to locate an element in the HTML/DOM
+- it will work on the Document Object Model (DOM)
 
+**Xpath Types**
 
+1. Absolutute XPath - loaded from root of the html
+2. Relative Xpath - directly find the element attribute
 
+**Absolute vs Relative Xpaths**
 
+<img width="1173" height="301" alt="image" src="https://github.com/user-attachments/assets/d60948e0-381b-4c2f-873a-d9c620919dbb" />
+
+**Ways to generate relative Xpaths**
+1. Automative
+
+- Using Devtools/SelectorHub
+  
+3. Manual
+
+```
+//tagName[@attribute='value']
+//*[@attribute='value']
+```
 
 
 
