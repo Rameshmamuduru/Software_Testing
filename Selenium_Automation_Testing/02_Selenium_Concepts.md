@@ -18,7 +18,28 @@ Selenium provides multiple locator strategies to identify and interact with elem
 | 8 | **Relative Locators   |  locate elements based on their spatial relationship to other elements
 ```
 
-<img width="1189" height="490" alt="image" src="https://github.com/user-attachments/assets/8400729b-4f7e-4942-babc-c43e15d85173" />
+**findElement vs findElements**
+
+findElement(loc) Vs findElements(loc)
+--------------------------------------
+
+Scenario 1: Locator is matching with single web element
+
+findElement(loc)  ----> single web element ----> WebElement
+findElements(loc) ----> single web element ----> List<WebElement>
+
+
+Scenario 2: Locator is matching with multiple web elements
+
+findElement(loc)  ----> single web element ----> WebElement
+findElements(loc) ----> multiple web elements ----> List<WebElement>
+
+
+Scenario 3: Locator is not matching with any element
+
+findElement(loc)  ----> NoSuchElementException
+findElements(loc) ----> will not throw any exception. Returns 0
+
 
 **Mind Map**
 | Locator               | HTML Example             | Selenium                         |
