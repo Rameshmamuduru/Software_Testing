@@ -31,3 +31,103 @@ Selenium provides multiple locator strategies to identify and interact with elem
 | **Partial Link Text** | `>View All Products</a>` | `By.partialLinkText("Products")` |
 
 
+## CSS Selector:
+
+CSS Selector is a way to tell Selenium exactly which HTML element you want to find by using CSS rules. In real automation, CSS selectors are used very frequently, especially when ID, name, or class alone is not enough.
+
+**Combination Options we have**
+- Tag
+- ID
+- class
+- tag + class
+- tag + ID
+- Attribute
+- Tag+Attribute
+- Multiple Attributes
+- Tag+class+attributes
+- multiple classes
+- Parent ---> child
+- Direct child
+- Attribute starts with ^=
+- Attribute starts with ^=
+- Attribute contains *=
+- Attribute contains *=
+- Exact attribute =
+- Combining parent + attribute
+- Parent + direct child + attribute
+- + — immediately following sibling
+- :first-child
+- :last-child
+- :first-child
+
+**Learning Flow**
+
+```
+LEVEL 1 — Basic
+│
+├── tag
+├── #id
+└── .class
+
+
+LEVEL 2 — Attributes
+│
+├── [attribute='value']
+├── tag[attribute='value']
+└── multiple attributes
+
+
+LEVEL 3 — Combination
+│
+├── tag.class
+├── tag#id
+├── .class[attribute='value']
+└── tag.class[attribute='value']
+
+
+LEVEL 4 — Relationships
+│
+├── parent child
+├── parent > child
+├── +
+└── ~
+
+
+LEVEL 5 — Dynamic attributes
+│
+├── [attribute^='value']   starts with
+├── [attribute$='value']   ends with
+└── [attribute*='value']   contains
+
+
+LEVEL 6 — Position
+│
+├── :first-child
+├── :last-child
+└── :nth-child()
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
