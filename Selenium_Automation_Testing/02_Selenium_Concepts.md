@@ -156,7 +156,11 @@ LEVEL 6 — Position
 
 // Using And/or operator
 //*[@attribute='value' and @attribute='value']
-//*[@attribute='value' or @attribute='value'] 
+//*[@attribute='value' or @attribute='value']
+
+// Using inner Text
+//tagName[text()='value']
+//*[text()='value']
 
 ```
 
