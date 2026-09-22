@@ -23,22 +23,20 @@ Selenium provides multiple locator strategies to identify and interact with elem
 findElement(loc) Vs findElements(loc)
 --------------------------------------
 
-Scenario 1: Locator is matching with single web element
+**Scenario 1: Locator is matching with single web element**
 
-findElement(loc)  ----> single web element ----> WebElement
-findElements(loc) ----> single web element ----> List<WebElement>
+- findElement(loc)  ----> single web element ----> WebElement
+- findElements(loc) ----> single web element ----> List<WebElement>
 
+**Scenario 2: Locator is matching with multiple web elements**
 
-Scenario 2: Locator is matching with multiple web elements
+- findElement(loc)  ----> single web element ----> WebElement
+- findElements(loc) ----> multiple web elements ----> List<WebElement>
 
-findElement(loc)  ----> single web element ----> WebElement
-findElements(loc) ----> multiple web elements ----> List<WebElement>
+**Scenario 3: Locator is not matching with any element**
 
-
-Scenario 3: Locator is not matching with any element
-
-findElement(loc)  ----> NoSuchElementException
-findElements(loc) ----> will not throw any exception. Returns 0
+- findElement(loc)  ----> NoSuchElementException
+- findElements(loc) ----> will not throw any exception. Returns 0
 
 
 **Mind Map**
