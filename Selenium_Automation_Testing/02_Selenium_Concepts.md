@@ -249,6 +249,20 @@ parent > child
 //tag[contains(@attribute,'value')]
 ```
 
+## XPath Axes:
+
+| XPath Axis          | Priority            | Why                                                 |
+| ------------------- | ------------------- | --------------------------------------------------- |
+| `parent`            | 🔴 Must master      | Very common for navigating from child → parent      |
+| `child`             | 🔴 Must master      | Basic DOM navigation                                |
+| `following-sibling` | 🔴 Must master      | Very useful when elements are next to each other    |
+| `preceding-sibling` | 🟠 Should know      | Useful for reverse sibling navigation               |
+| `ancestor`          | 🟠 Should know      | Useful when parent is not the immediate parent      |
+| `descendant`        | 🟠 Should know      | Useful for finding elements deeper in the hierarchy |
+| `following`         | 🟡 Know the concept | Less frequently needed                              |
+| `preceding`         | 🟡 Know the concept | Less frequently needed                              |
+| `self`              | 🟡 Know the concept | Rarely required in everyday Selenium                |
+
 
 
 
