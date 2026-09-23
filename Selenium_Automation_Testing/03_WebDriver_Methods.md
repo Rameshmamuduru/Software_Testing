@@ -42,3 +42,51 @@
 | Explicit Wait | `WebDriverWait`    | Wait for a specific condition     |
 | Fluent Wait   | `FluentWait`       | Custom polling/exception handling |
 
+
+**Implicit Wait**
+
+
+**Explicit Wait**
+```
+Create WebDriverWait
+       ↓
+Set maximum time = 10 seconds
+       ↓
+Tell Selenium what condition to wait for
+       ↓
+Condition satisfied?
+   ↓             ↓
+ YES            NO
+  ↓              ↓
+Continue      TimeoutException
+```JAVA
+//Creation of WebDriverWait object
+WebDriverWait mywait = new WebDriverWait(driver, Duration.ofSeconds(10));
+
+//Usage of object for the elements
+
+WebElement cli = mywait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[normalize-space()='OrangeHRM, Inc']")));
+cli.click();
+System.out.println(cli.isDisplayed());
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
