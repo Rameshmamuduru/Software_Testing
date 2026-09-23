@@ -55,29 +55,38 @@ findElement(loc) Vs findElements(loc)
 CSS Selector is a way to tell Selenium exactly which HTML element you want to find by using CSS rules. In real automation, CSS selectors are used very frequently, especially when ID, name, or class alone is not enough.
 
 **Combination Options we have**
-- Tag
-- ID
-- class
-- tag + class
-- tag + ID
-- Attribute
-- Tag+Attribute
-- Multiple Attributes
-- Tag+class+attributes
-- multiple classes
-- Parent ---> child
-- Direct child
-- Attribute starts with ^=
-- Attribute starts with ^=
-- Attribute contains *=
-- Attribute contains *=
-- Exact attribute =
-- Combining parent + attribute
-- Parent + direct child + attribute
-- + — immediately following sibling
-- :first-child
-- :last-child
-- :first-child
+
+**Most Used**
+| CSS Selector                | Syntax                     | Full HTML Example                                    | Selenium Example                                        |
+| --------------------------- | -------------------------- | ---------------------------------------------------- | ------------------------------------------------------- |
+| **Tag**                     | `tag`                      | `<input type="text">`                                | `By.cssSelector("input")`                               |
+| **ID**                      | `#id`                      | `<input id="username">`                              | `By.cssSelector("#username")`                           |
+| **Class**                   | `.class`                   | `<button class="login">Login</button>`               | `By.cssSelector(".login")`                              |
+| **Tag + Class**             | `tag.class`                | `<button class="login">Login</button>`               | `By.cssSelector("button.login")`                        |
+| **Tag + ID**                | `tag#id`                   | `<input id="username">`                              | `By.cssSelector("input#username")`                      |
+| **Attribute**               | `[attribute='value']`      | `<input name="username">`                            | `By.cssSelector("[name='username']")`                   |
+| **Tag + Attribute**         | `tag[attribute='value']`   | `<input name="username">`                            | `By.cssSelector("input[name='username']")`              |
+| **Multiple Attributes**     | `[attr1='v1'][attr2='v2']` | `<input type="text" name="username">`                | `By.cssSelector("input[type='text'][name='username']")` |
+| **Tag + Class + Attribute** | `tag.class[attr='value']`  | `<button class="login" type="submit">Login</button>` | `By.cssSelector("button.login[type='submit']")`         |
+| **Multiple Classes**        | `.class1.class2`           | `<button class="btn login">Login</button>`           | `By.cssSelector(".btn.login")`                          |
+| **Parent → Child**          | `parent child`             | `<form><input name="user"></form>`                   | `By.cssSelector("form input")`                          |
+| **Direct Child**            | `parent > child`           | `<form><input name="user"></form>`                   | `By.cssSelector("form > input")`                        |
+
+**Other Usefull**
+
+| CSS Selector                          | Syntax                         | Full HTML Example                            | Selenium Example                                  |
+| ------------------------------------- | ------------------------------ | -------------------------------------------- | ------------------------------------------------- |
+| **Attribute Starts With**             | `[attr^='value']`              | `<input id="user_12345">`                    | `By.cssSelector("[id^='user_']")`                 |
+| **Attribute Contains**                | `[attr*='value']`              | `<input id="user_12345">`                    | `By.cssSelector("[id*='user']")`                  |
+| **Attribute Ends With**               | `[attr$='value']`              | `<input id="username_field">`                | `By.cssSelector("[id$='field']")`                 |
+| **Exact Attribute**                   | `[attr='value']`               | `<input name="username">`                    | `By.cssSelector("[name='username']")`             |
+| **Parent + Attribute**                | `parent [attr='value']`        | `<form><input name="username"></form>`       | `By.cssSelector("form [name='username']")`        |
+| **Parent + Direct Child + Attribute** | `parent > child[attr='value']` | `<form><input name="username"></form>`       | `By.cssSelector("form > input[name='username']")` |
+| **Immediately Following Sibling**     | `element + sibling`            | `<label>Username</label><input type="text">` | `By.cssSelector("label + input")`                 |
+| **First Child**                       | `parent :first-child`          | `<div><input><input></div>`                  | `By.cssSelector("div input:first-child")`         |
+| **Last Child**                        | `parent :last-child`           | `<div><input><input></div>`                  | `By.cssSelector("div input:last-child")`          |
+
+
 
 **Learning Flow**
 
