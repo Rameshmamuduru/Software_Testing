@@ -59,6 +59,7 @@ Condition satisfied?
  YES            NO
   ↓              ↓
 Continue      TimeoutException
+```
 ```JAVA
 //Creation of WebDriverWait object
 WebDriverWait mywait = new WebDriverWait(driver, Duration.ofSeconds(10));
