@@ -173,10 +173,74 @@ LEVEL 6 — Position
 
 ```
 
+**Mosu Used**
+```
+| XPath Selector              | Syntax                                    | Full HTML Example                                    | Selenium Example                                          |
+| --------------------------- | ----------------------------------------- | ---------------------------------------------------- | --------------------------------------------------------- |
+| **Tag**                     | `//tag`                                   | `<input type="text">`                                | `By.xpath("//input")`                                     |
+| **ID**                      | `//*[@id='value']`                        | `<input id="username">`                              | `By.xpath("//*[@id='username']")`                         |
+| **Class**                   | `//*[@class='value']`                     | `<button class="login">Login</button>`               | `By.xpath("//*[@class='login']")`                         |
+| **Tag + Class**             | `//tag[@class='value']`                   | `<button class="login">Login</button>`               | `By.xpath("//button[@class='login']")`                    |
+| **Tag + ID**                | `//tag[@id='value']`                      | `<input id="username">`                              | `By.xpath("//input[@id='username']")`                     |
+| **Attribute**               | `//*[@attribute='value']`                 | `<input name="username">`                            | `By.xpath("//*[@name='username']")`                       |
+| **Tag + Attribute**         | `//tag[@attribute='value']`               | `<input name="username">`                            | `By.xpath("//input[@name='username']")`                   |
+| **Multiple Attributes**     | `//tag[@attr1='v1' and @attr2='v2']`      | `<input type="text" name="username">`                | `By.xpath("//input[@type='text' and @name='username']")`  |
+| **Tag + Class + Attribute** | `//tag[@class='value' and @attr='value']` | `<button class="login" type="submit">Login</button>` | `By.xpath("//button[@class='login' and @type='submit']")` |
+| **Multiple Classes**        | `//tag[@class='class1 class2']`           | `<button class="btn login">Login</button>`           | `By.xpath("//button[@class='btn login']")`                |
+| **Parent → Child**          | `//parent/child`                          | `<form><input name="user"></form>`                   | `By.xpath("//form/input")`                                |
+| **Any Descendant**          | `//parent//child`                         | `<form><div><input name="user"></div></form>`        | `By.xpath("//form//input")`                               |
+| **Direct Child**            | `//parent/child`                          | `<form><input name="user"></form>`                   | `By.xpath("//form/input")`                                |
+```
+
+**Other Paths**
+
+| XPath Selector                        | Syntax                                 | Full HTML Example                                 | Selenium Example                                |
+| ------------------------------------- | -------------------------------------- | ------------------------------------------------- | ----------------------------------------------- |
+| **Attribute Starts With**             | `//tag[starts-with(@attr,'value')]`    | `<input id="user_12345">`                         | `By.xpath("//input[starts-with(@id,'user_')]")` |
+| **Attribute Contains**                | `//tag[contains(@attr,'value')]`       | `<input id="user_12345">`                         | `By.xpath("//input[contains(@id,'user')]")`     |
+| **Exact Attribute**                   | `//tag[@attr='value']`                 | `<input name="username">`                         | `By.xpath("//input[@name='username']")`         |
+| **Parent + Attribute**                | `//parent//child[@attr='value']`       | `<form><div><input name="username"></div></form>` | `By.xpath("//form//input[@name='username']")`   |
+| **Parent + Direct Child + Attribute** | `//parent/child[@attr='value']`        | `<form><input name="username"></form>`            | `By.xpath("//form/input[@name='username']")`    |
+| **Following Sibling**                 | `//element/following-sibling::sibling` | `<label>Username</label><input type="text">`      | `By.xpath("//label/following-sibling::input")`  |
+| **First Child**                       | `(//tag)[1]`                           | `<div><input><input></div>`                       | `By.xpath("(//input)[1]")`                      |
+| **Last Child**                        | `(//tag)[last()]`                      | `<div><input><input></div>`                       | `By.xpath("(//input)[last()]")`                 |
+| **Parent**                            | `//child/..`                           | `<div><input id="user"></div>`                    | `By.xpath("//input[@id='user']/..")`            |
+| **Ancestor**                          | `//child/ancestor::tag`                | `<form><div><input></div></form>`                 | `By.xpath("//input/ancestor::form")`            |
 
 
+**Css Must Master**
+```
+tag
+#id
+.class
+tag.class
+tag#id
+[attribute='value']
+tag[attribute='value']
+[attribute1='value1'][attribute2='value2']
+tag.class[attribute='value']
+.class1.class2
+parent child
+parent > child
+[attr^='value']
+[attr*='value']
+[attr$='value']
+```
 
-
+**Xpath Must Master**
+```
+//tag
+//*[@id='value']
+//tag[@id='value']
+//tag[@class='value']
+//tag[@attribute='value']
+//tag[@attr1='v1' and @attr2='v2']
+//parent/child
+//parent//child
+//tag[text()='text']
+//tag[contains(text(),'text')]
+//tag[contains(@attribute,'value')]
+```
 
 
 
