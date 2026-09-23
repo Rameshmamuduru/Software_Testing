@@ -148,7 +148,14 @@ LEVEL 6 — Position
 
 **Absolute vs Relative Xpaths**
 
-<img width="1173" height="301" alt="image" src="https://github.com/user-attachments/assets/d60948e0-381b-4c2f-873a-d9c620919dbb" />
+1) Absolute XPath starts with /       ---> represents root node
+   Relative XPath starts with //
+
+2) Absolute XPath do not use attributes
+   Relative XPath works with attribute
+
+3) Absolute XPath traverse through each node till it finds element
+   Relative XPath directly jump and find the element by using attribute
 
 **Ways to generate relative Xpaths**
 **1. Automative**
