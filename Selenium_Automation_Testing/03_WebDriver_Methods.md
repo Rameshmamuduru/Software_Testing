@@ -1,9 +1,13 @@
 ## WebDriver Methods:
 
 **1. Get Methods**
+
 **2. conditional Methods**
+
 **3. browser methids**
+
 **4. navigational methods**
+
 **5. wait methods**
 
 **1. Get Methods**
