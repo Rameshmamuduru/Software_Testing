@@ -174,7 +174,40 @@ public class FramesDemo {
 
 ```
 
+**Drop-Downs**
 
+1. Select Dropdowns
+2. bootstrap dropdowns
+3. hidden dropdowns
+
+**1. Select Dropdowns**
+- it will have the html select tag.
+```JAVA
+WebDriver driver = new EdgeDriver();
+		driver.get("https://testautomationpractice.blogspot.com/");
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		
+		WebElement country = driver.findElement(By.xpath("//select[@id='country']"));
+		
+		Select select = new Select(country);
+		// select.selectByVisibleText("India");
+		select.selectByIndex(1);
+```
+
+**2. bootstrap dropdowns**
+
+1) Handle country dropdown with/without using Select class:
+   https://phppot.com/demo/jquery-dependent-dropdown-list-countries-and-states/
+   a) count total number of options
+   b) print all the options
+   c) select one option
+
+2) Hidden dropdown
+   Login to OrangeHRM --> pim --> employee status
+
+3) https://testautomationpractice.blogspot.com/
+   colors mult select box
 
 
 
