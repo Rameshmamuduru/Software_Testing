@@ -93,7 +93,26 @@ public class AlertsDemo {
 
 ```
 
+**Confirmation Alert**
+```JAVA
+WebElement obj = driver.findElement(By.xpath("//button[normalize-space()='Click for JS Confirm']"));
+		obj.click();
+		Alert alert = driver.switchTo().alert();
+		// alert.dismiss();
+		
+		alert.accept();
+```
 
+**Prompt Alert**
+```JAVA
+WebElement obj = driver.findElement(By.xpath("//button[normalize-space()='Click for JS Prompt']"));
+		obj.click();
+		Alert alert = driver.switchTo().alert();
+			
+		alert.sendKeys("Welcome");
+		alert.accept();
+
+```
 
 
 
