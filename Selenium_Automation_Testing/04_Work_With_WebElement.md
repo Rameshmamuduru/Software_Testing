@@ -27,3 +27,90 @@
 | ⭐⭐⭐      | **Menus**                 | navigation menus, submenus                   |
 | ⭐⭐⭐      | **Modals/Popups**         | open, interact, close                        |
 | ⭐⭐⭐      | **Loading indicators**    | wait for spinner to disappear                |
+
+
+## Alerts:
+
+**Types of alerts windows we have**
+
+| Alert type             | Purpose                      | Buttons             | Selenium method                         |
+| ---------------------- | ---------------------------- | ------------------- | --------------------------------------- |
+| **Simple Alert**       | Shows an information/message | OK                  | `accept()`                              |
+| **Confirmation Alert** | Asks user to confirm/cancel  | OK + Cancel         | `accept()` / `dismiss()`                |
+| **Prompt Alert**       | Asks user to enter input     | Input + OK + Cancel | `sendKeys()` + `accept()` / `dismiss()` |
+
+**Simple Alert**
+
+- Example:
+```
+Are you sure?
+        [ OK ]
+
+```
+
+```JAVA
+package selenium_project;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.edge.EdgeDriver;
+
+public class AlertsDemo {
+
+	public static void main(String[] args) throws InterruptedException {
+		WebDriver driver = new EdgeDriver();
+		
+		driver.get("https://the-internet.herokuapp.com/javascript_alerts");
+		driver.manage().window().maximize();
+		
+		Thread.sleep(10);
+		
+		WebElement myalert = driver.findElement(By.xpath("//button[normalize-space()='Click for JS Alert']"));
+		
+		myalert.click();
+		
+		Alert alert = driver.switchTo().alert();
+		
+		alert.accept();
+		
+		WebElement result = driver.findElement(By.id("result"));
+		String Actualresult = result.getText();
+		String Expectedresult = "You successfully clicked an alert";
+		
+		if (Actualresult.equals(Expectedresult)) {
+			System.out.println("Test Case Passed");
+		}
+		else {
+			System.out.println("Test Case Failed");
+		}
+		
+
+	}
+
+}
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
