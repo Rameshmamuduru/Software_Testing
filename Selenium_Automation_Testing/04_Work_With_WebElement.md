@@ -1,38 +1,355 @@
 ## Web-UI Elements to know
 
 **Must Master**
-| UI / Concept          | Level |
-| --------------------- | ----- |
-| Text fields / Input   | ⭐⭐⭐⭐⭐ |
-| Buttons               | ⭐⭐⭐⭐⭐ |
-| Links                 | ⭐⭐⭐⭐⭐ |
-| Checkboxes            | ⭐⭐⭐⭐⭐ |
-| Radio buttons         | ⭐⭐⭐⭐⭐ |
-| Dropdowns             | ⭐⭐⭐⭐⭐ |
-| Web tables            | ⭐⭐⭐⭐⭐ |
-| Waits                 | ⭐⭐⭐⭐⭐ |
-| Dynamic elements      | ⭐⭐⭐⭐⭐ |
-| Mouse actions         | ⭐⭐⭐⭐  |
-| Keyboard actions      | ⭐⭐⭐⭐  |
-| Alerts                | ⭐⭐⭐⭐  |
-| Frames / iFrames      | ⭐⭐⭐⭐  |
-| Multiple windows/tabs | ⭐⭐⭐⭐  |
+
+Yes. Most of these UI topics have **types/subtypes**, just like dropdowns. For SDET/Selenium, these are the important ones to know.
+
+### 1. Text fields / Input
+
+| Type                       | Priority |
+| -------------------------- | -------- |
+| Text input                 | ⭐⭐⭐⭐⭐    |
+| Password input             | ⭐⭐⭐⭐⭐    |
+| Email input                | ⭐⭐⭐⭐⭐    |
+| Number input               | ⭐⭐⭐⭐⭐    |
+| Search input               | ⭐⭐⭐⭐⭐    |
+| Date input                 | ⭐⭐⭐⭐     |
+| File upload input          | ⭐⭐⭐⭐     |
+| Textarea / Multiline input | ⭐⭐⭐⭐     |
+| Read-only input            | ⭐⭐⭐⭐     |
+| Disabled input             | ⭐⭐⭐⭐     |
+| Hidden input               | ⭐⭐⭐      |
+
+### 2. Buttons
+
+| Type                     | Priority |
+| ------------------------ | -------- |
+| Submit button            | ⭐⭐⭐⭐⭐    |
+| Normal / Click button    | ⭐⭐⭐⭐⭐    |
+| Reset button             | ⭐⭐⭐⭐     |
+| Image button             | ⭐⭐⭐      |
+| Icon button              | ⭐⭐⭐⭐     |
+| Toggle button            | ⭐⭐⭐⭐⭐    |
+| Disabled button          | ⭐⭐⭐⭐     |
+| Loading / Dynamic button | ⭐⭐⭐⭐     |
+
+### 3. Links
+
+| Type                        | Priority |
+| --------------------------- | -------- |
+| Normal text link            | ⭐⭐⭐⭐⭐    |
+| External link               | ⭐⭐⭐⭐     |
+| Internal link               | ⭐⭐⭐⭐⭐    |
+| Image link                  | ⭐⭐⭐      |
+| Dynamic link                | ⭐⭐⭐⭐     |
+| Disabled-looking link       | ⭐⭐⭐      |
+| Link opening new tab/window | ⭐⭐⭐⭐     |
+
+### 4. Checkboxes
+
+| Type                      | Priority |
+| ------------------------- | -------- |
+| Single checkbox           | ⭐⭐⭐⭐⭐    |
+| Multiple checkboxes       | ⭐⭐⭐⭐⭐    |
+| Select All / Deselect All | ⭐⭐⭐⭐⭐    |
+| Checkbox group            | ⭐⭐⭐⭐⭐    |
+| Checked checkbox          | ⭐⭐⭐⭐⭐    |
+| Unchecked checkbox        | ⭐⭐⭐⭐⭐    |
+| Disabled checkbox         | ⭐⭐⭐⭐     |
+| Indeterminate checkbox    | ⭐⭐⭐      |
+
+### 5. Radio buttons
+
+| Type                   | Priority |
+| ---------------------- | -------- |
+| Single radio button    | ⭐⭐⭐⭐⭐    |
+| Radio button group     | ⭐⭐⭐⭐⭐    |
+| Default-selected radio | ⭐⭐⭐⭐⭐    |
+| Unselected radio       | ⭐⭐⭐⭐⭐    |
+| Disabled radio         | ⭐⭐⭐⭐     |
+| Dynamic radio buttons  | ⭐⭐⭐⭐     |
+
+### 6. Dropdowns
+
+| Type                               | Priority |
+| ---------------------------------- | -------- |
+| Native HTML `<select>`             | ⭐⭐⭐⭐⭐    |
+| Custom dropdown                    | ⭐⭐⭐⭐⭐    |
+| Searchable / Autocomplete dropdown | ⭐⭐⭐⭐⭐    |
+| Dynamic dropdown                   | ⭐⭐⭐⭐⭐    |
+| Dependent / Cascading dropdown     | ⭐⭐⭐⭐⭐    |
+| Multi-select dropdown              | ⭐⭐⭐⭐⭐    |
+| Checkbox dropdown                  | ⭐⭐⭐⭐     |
+| Editable dropdown / Combobox       | ⭐⭐⭐⭐     |
+| Bootstrap / Material UI dropdown   | ⭐⭐⭐⭐     |
+| Dynamically loaded options         | ⭐⭐⭐⭐     |
+
+### 7. Web tables
+
+| Type                          | Priority |
+| ----------------------------- | -------- |
+| Static table                  | ⭐⭐⭐⭐⭐    |
+| Dynamic table                 | ⭐⭐⭐⭐⭐    |
+| Table with pagination         | ⭐⭐⭐⭐⭐    |
+| Table with sorting            | ⭐⭐⭐⭐⭐    |
+| Table with filtering/search   | ⭐⭐⭐⭐⭐    |
+| Table with checkboxes         | ⭐⭐⭐⭐⭐    |
+| Table with action buttons     | ⭐⭐⭐⭐⭐    |
+| Table with links              | ⭐⭐⭐⭐     |
+| Nested table                  | ⭐⭐⭐      |
+| Expandable / Collapsible rows | ⭐⭐⭐⭐     |
+
+### 8. Waits
+
+| Type                   | Priority |
+| ---------------------- | -------- |
+| Implicit wait          | ⭐⭐⭐⭐     |
+| Explicit wait          | ⭐⭐⭐⭐⭐    |
+| Fluent wait            | ⭐⭐⭐⭐⭐    |
+| Visibility wait        | ⭐⭐⭐⭐⭐    |
+| Element clickable wait | ⭐⭐⭐⭐⭐    |
+| Presence wait          | ⭐⭐⭐⭐⭐    |
+| Invisibility wait      | ⭐⭐⭐⭐     |
+| Alert wait             | ⭐⭐⭐⭐     |
+| Frame wait             | ⭐⭐⭐⭐     |
+| URL wait               | ⭐⭐⭐⭐     |
+| Title wait             | ⭐⭐⭐⭐     |
+
+### 9. Dynamic elements
+
+| Type                            | Priority |
+| ------------------------------- | -------- |
+| Dynamic ID                      | ⭐⭐⭐⭐⭐    |
+| Dynamic class                   | ⭐⭐⭐⭐⭐    |
+| Dynamic text                    | ⭐⭐⭐⭐     |
+| Dynamic attributes              | ⭐⭐⭐⭐⭐    |
+| Dynamically loaded elements     | ⭐⭐⭐⭐⭐    |
+| AJAX elements                   | ⭐⭐⭐⭐⭐    |
+| Elements appearing/disappearing | ⭐⭐⭐⭐⭐    |
+| Changing table rows             | ⭐⭐⭐⭐⭐    |
+| Dynamic dropdown options        | ⭐⭐⭐⭐⭐    |
+| Loading/spinner elements        | ⭐⭐⭐⭐⭐    |
+
+### 10. Mouse actions
+
+| Type                        | Priority |
+| --------------------------- | -------- |
+| Click                       | ⭐⭐⭐⭐⭐    |
+| Double-click                | ⭐⭐⭐⭐     |
+| Right-click / Context click | ⭐⭐⭐⭐     |
+| Mouse hover                 | ⭐⭐⭐⭐⭐    |
+| Move to element             | ⭐⭐⭐⭐⭐    |
+| Drag and drop               | ⭐⭐⭐⭐     |
+| Click and hold              | ⭐⭐⭐      |
+| Release                     | ⭐⭐⭐      |
+| Move by offset              | ⭐⭐⭐      |
+
+### 11. Keyboard actions
+
+| Type             | Priority |
+| ---------------- | -------- |
+| Enter            | ⭐⭐⭐⭐⭐    |
+| Tab              | ⭐⭐⭐⭐⭐    |
+| Escape           | ⭐⭐⭐⭐     |
+| Arrow keys       | ⭐⭐⭐⭐     |
+| Ctrl + A         | ⭐⭐⭐⭐⭐    |
+| Ctrl + C / V     | ⭐⭐⭐⭐     |
+| Shift + key      | ⭐⭐⭐      |
+| Function keys    | ⭐⭐⭐      |
+| Key combinations | ⭐⭐⭐⭐     |
+
+### 12. Alerts
+
+| Type                | Priority |
+| ------------------- | -------- |
+| Simple alert        | ⭐⭐⭐⭐⭐    |
+| Confirmation alert  | ⭐⭐⭐⭐⭐    |
+| Prompt alert        | ⭐⭐⭐⭐     |
+| Accept alert        | ⭐⭐⭐⭐⭐    |
+| Dismiss alert       | ⭐⭐⭐⭐⭐    |
+| Get alert text      | ⭐⭐⭐⭐⭐    |
+| Send text to prompt | ⭐⭐⭐⭐     |
+| Unexpected alert    | ⭐⭐⭐⭐     |
+
+### 13. Frames / iFrames
+
+| Type                 | Priority |
+| -------------------- | -------- |
+| Single iframe        | ⭐⭐⭐⭐⭐    |
+| Multiple iframes     | ⭐⭐⭐⭐⭐    |
+| Nested iframe        | ⭐⭐⭐⭐     |
+| Dynamic iframe       | ⭐⭐⭐⭐     |
+| Switch by index      | ⭐⭐⭐⭐     |
+| Switch by name/id    | ⭐⭐⭐⭐     |
+| Switch by WebElement | ⭐⭐⭐⭐⭐    |
+| Default content      | ⭐⭐⭐⭐⭐    |
+| Parent frame         | ⭐⭐⭐⭐     |
+
+### 14. Multiple windows / tabs
+
+| Type                      | Priority |
+| ------------------------- | -------- |
+| New tab                   | ⭐⭐⭐⭐⭐    |
+| New window                | ⭐⭐⭐⭐⭐    |
+| Switch between tabs       | ⭐⭐⭐⭐⭐    |
+| Switch between windows    | ⭐⭐⭐⭐⭐    |
+| Get window handles        | ⭐⭐⭐⭐⭐    |
+| Get current window handle | ⭐⭐⭐⭐⭐    |
+| Close current tab/window  | ⭐⭐⭐⭐⭐    |
+| Return to parent window   | ⭐⭐⭐⭐⭐    |
+| Multiple tabs/windows     | ⭐⭐⭐⭐     |
+
+⭐⭐⭐⭐⭐ items are the ones to master first.** The ⭐⭐⭐ and ⭐⭐⭐⭐ items can come after you are comfortable with the core UI interactions.
+
 
 **Need to Know**
-| UI / Concept       | Level |
-| ------------------ | ----- |
-| Date pickers       | ⭐⭐⭐⭐  |
-| Auto-suggest       | ⭐⭐⭐⭐  |
-| Pagination         | ⭐⭐⭐   |
-| Modals/Popups      | ⭐⭐⭐   |
-| Menus/Submenus     | ⭐⭐⭐   |
-| Loading indicators | ⭐⭐⭐   |
-| Tooltips           | ⭐⭐⭐   |
-| File upload        | ⭐⭐⭐   |
-| File download      | ⭐⭐⭐   |
-| Browser scrolling  | ⭐⭐⭐   |
-| Sliders            | ⭐⭐    |
-| Drag & drop        | ⭐⭐    |
+
+Yes — these also have different **types/subtypes**. For your Selenium/SDET preparation:
+
+### Date Pickers
+
+| Type                           | Priority |
+| ------------------------------ | -------- |
+| Native HTML date picker        | ⭐⭐⭐⭐⭐    |
+| Custom calendar                | ⭐⭐⭐⭐⭐    |
+| Date range picker              | ⭐⭐⭐⭐⭐    |
+| Date + time picker             | ⭐⭐⭐⭐     |
+| Month/year picker              | ⭐⭐⭐⭐     |
+| Dynamic date picker            | ⭐⭐⭐⭐     |
+| Disabled dates                 | ⭐⭐⭐⭐     |
+| Previous/next month navigation | ⭐⭐⭐⭐⭐    |
+
+### Auto-suggest
+
+| Type                       | Priority |
+| -------------------------- | -------- |
+| Basic autocomplete         | ⭐⭐⭐⭐⭐    |
+| Dynamic suggestions        | ⭐⭐⭐⭐⭐    |
+| Search suggestions         | ⭐⭐⭐⭐⭐    |
+| API/AJAX-based suggestions | ⭐⭐⭐⭐⭐    |
+| Multi-value autocomplete   | ⭐⭐⭐⭐     |
+| No-result suggestion       | ⭐⭐⭐⭐     |
+
+### Pagination
+
+| Type                     | Priority |
+| ------------------------ | -------- |
+| Number-based pagination  | ⭐⭐⭐⭐⭐    |
+| Next/Previous pagination | ⭐⭐⭐⭐⭐    |
+| First/Last pagination    | ⭐⭐⭐⭐     |
+| Dynamic pagination       | ⭐⭐⭐⭐⭐    |
+| Table pagination         | ⭐⭐⭐⭐⭐    |
+| Disabled Next/Previous   | ⭐⭐⭐⭐     |
+| Page-size selector       | ⭐⭐⭐⭐     |
+
+### Modals / Popups
+
+| Type               | Priority |
+| ------------------ | -------- |
+| Modal dialog       | ⭐⭐⭐⭐⭐    |
+| Confirmation popup | ⭐⭐⭐⭐⭐    |
+| Alert popup        | ⭐⭐⭐⭐⭐    |
+| Login popup        | ⭐⭐⭐⭐     |
+| Cookie popup       | ⭐⭐⭐⭐     |
+| Promotional popup  | ⭐⭐⭐      |
+| Dynamic modal      | ⭐⭐⭐⭐     |
+| Nested modal       | ⭐⭐⭐      |
+
+### Menus / Submenus
+
+| Type                            | Priority |
+| ------------------------------- | -------- |
+| Simple menu                     | ⭐⭐⭐⭐⭐    |
+| Dropdown menu                   | ⭐⭐⭐⭐⭐    |
+| Nested submenu                  | ⭐⭐⭐⭐     |
+| Hover menu                      | ⭐⭐⭐⭐⭐    |
+| Context menu / Right-click menu | ⭐⭐⭐⭐     |
+| Mega menu                       | ⭐⭐⭐⭐     |
+| Dynamic menu                    | ⭐⭐⭐⭐     |
+
+### Loading Indicators
+
+| Type                         | Priority |
+| ---------------------------- | -------- |
+| Spinner                      | ⭐⭐⭐⭐⭐    |
+| Page loader                  | ⭐⭐⭐⭐⭐    |
+| Element loader               | ⭐⭐⭐⭐⭐    |
+| Progress bar                 | ⭐⭐⭐⭐     |
+| Skeleton loader              | ⭐⭐⭐⭐     |
+| AJAX loading indicator       | ⭐⭐⭐⭐⭐    |
+| Loading → content transition | ⭐⭐⭐⭐⭐    |
+
+### Tooltips
+
+| Type                       | Priority |
+| -------------------------- | -------- |
+| Hover tooltip              | ⭐⭐⭐⭐⭐    |
+| CSS tooltip                | ⭐⭐⭐⭐     |
+| JavaScript tooltip         | ⭐⭐⭐⭐     |
+| Bootstrap/Material tooltip | ⭐⭐⭐⭐     |
+| Dynamic tooltip            | ⭐⭐⭐⭐     |
+| Tooltip validation         | ⭐⭐⭐⭐     |
+
+### File Upload
+
+| Type                    | Priority |
+| ----------------------- | -------- |
+| Single-file upload      | ⭐⭐⭐⭐⭐    |
+| Multiple-file upload    | ⭐⭐⭐⭐⭐    |
+| Image upload            | ⭐⭐⭐⭐     |
+| PDF/document upload     | ⭐⭐⭐⭐     |
+| Drag-and-drop upload    | ⭐⭐⭐      |
+| File type validation    | ⭐⭐⭐⭐⭐    |
+| File size validation    | ⭐⭐⭐⭐⭐    |
+| Invalid file validation | ⭐⭐⭐⭐⭐    |
+
+### File Download
+
+| Type                   | Priority |
+| ---------------------- | -------- |
+| Single-file download   | ⭐⭐⭐⭐⭐    |
+| Multiple-file download | ⭐⭐⭐⭐     |
+| PDF download           | ⭐⭐⭐⭐     |
+| Excel/CSV download     | ⭐⭐⭐⭐     |
+| Download verification  | ⭐⭐⭐⭐⭐    |
+| File name verification | ⭐⭐⭐⭐     |
+| File type verification | ⭐⭐⭐⭐     |
+| File size verification | ⭐⭐⭐      |
+
+### Browser Scrolling
+
+| Type                 | Priority |
+| -------------------- | -------- |
+| Scroll down          | ⭐⭐⭐⭐⭐    |
+| Scroll up            | ⭐⭐⭐⭐⭐    |
+| Scroll to element    | ⭐⭐⭐⭐⭐    |
+| Scroll to bottom     | ⭐⭐⭐⭐     |
+| Scroll to top        | ⭐⭐⭐⭐     |
+| Horizontal scrolling | ⭐⭐⭐      |
+| Infinite scrolling   | ⭐⭐⭐⭐⭐    |
+
+### Sliders
+
+| Type                    | Priority |
+| ----------------------- | -------- |
+| Range slider            | ⭐⭐⭐⭐     |
+| Single-value slider     | ⭐⭐⭐⭐     |
+| Dual-value/range slider | ⭐⭐⭐⭐     |
+| Horizontal slider       | ⭐⭐⭐⭐     |
+| Vertical slider         | ⭐⭐⭐      |
+| Dynamic slider          | ⭐⭐⭐      |
+
+### Drag & Drop
+
+| Type                  | Priority |
+| --------------------- | -------- |
+| Basic drag & drop     | ⭐⭐⭐⭐     |
+| Drag element → target | ⭐⭐⭐⭐⭐    |
+| HTML5 drag & drop     | ⭐⭐⭐      |
+| Slider drag           | ⭐⭐⭐      |
+| File drag & drop      | ⭐⭐⭐      |
+| Dynamic drag & drop   | ⭐⭐⭐      |
+
 
 
 ## Alerts:
